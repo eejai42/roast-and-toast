@@ -169,6 +169,82 @@ namespace AirtableToDotNet.APIWrapper
         /// </summary>
         /// <param name="game">The game which was deleted</param>
         partial void AfterDeleteGame(dc.Game game);
+        /// <summary>
+        /// Called before a weapon is updated.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="weapon">The weapon to update</param>
+        partial void BeforeUpdateWEapon(dc.WEapon weapon);
+
+        /// <summary>
+        /// Called after a weapon is updated
+        /// </summary>
+        /// <param name="weapon">The weapon which was updated</param>
+        partial void AfterUpdateWEapon(dc.WEapon weapon);
+
+        /// <summary>
+        /// Called before a weapon is added.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="weapon">The weapon to add</param>
+        partial void BeforeAddWEapon(dc.WEapon weapon);
+
+        /// <summary>
+        /// Called after a weapon is added
+        /// </summary>
+        /// <param name="weapon">The weapon which was added</param>
+        partial void AfterAddWEapon(dc.WEapon weapon);
+
+        /// <summary>
+        /// Called before a weapon is deleted.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="weapon">The weapon to add</param>
+        partial void BeforeDeleteWEapon(dc.WEapon weapon);
+
+        /// <summary>
+        /// Called after a weapon is deleted
+        /// </summary>
+        /// <param name="weapon">The weapon which was deleted</param>
+        partial void AfterDeleteWEapon(dc.WEapon weapon);
+        /// <summary>
+        /// Called before a level is updated.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="level">The level to update</param>
+        partial void BeforeUpdateLevel(dc.Level level);
+
+        /// <summary>
+        /// Called after a level is updated
+        /// </summary>
+        /// <param name="level">The level which was updated</param>
+        partial void AfterUpdateLevel(dc.Level level);
+
+        /// <summary>
+        /// Called before a level is added.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="level">The level to add</param>
+        partial void BeforeAddLevel(dc.Level level);
+
+        /// <summary>
+        /// Called after a level is added
+        /// </summary>
+        /// <param name="level">The level which was added</param>
+        partial void AfterAddLevel(dc.Level level);
+
+        /// <summary>
+        /// Called before a level is deleted.  Throw a SkipOperationException 
+        /// if the update should not happen
+        /// </summary>
+        /// <param name="level">The level to add</param>
+        partial void BeforeDeleteLevel(dc.Level level);
+
+        /// <summary>
+        /// Called after a level is deleted
+        /// </summary>
+        /// <param name="level">The level which was deleted</param>
+        partial void AfterDeleteLevel(dc.Level level);
 
         /// <summary>
         /// Throw this exception to SKIP a CRUD operation like update, insert or delete
@@ -479,6 +555,150 @@ namespace AirtableToDotNet.APIWrapper
             }
 
             return game;
+        }
+        /// <summary>
+        /// Returns a list of WEapons
+        /// </summary>
+        /// <param name="view">the specific view to pull WEapons from</param>
+        /// <returns>The list of WEapons from the given view</returns>
+        public IEnumerable<dc.WEapon> GetWEapons(String where = "", String view = "", int maxPages = 5)
+        {
+            var rows = this.GetTableAsAirtableRows("WEapon", "WEapons", "WEapons", where, view, maxPages);
+            return rows.ConvertTo<dc.WEapon>();
+        }
+
+        /// <summary>
+        /// Update the given weapon
+        /// </summary>
+        /// <param name="weapon">The weapon to update</param>
+        public dc.WEapon Update(dc.WEapon weapon)
+        {
+            try
+            {
+                this.BeforeUpdateWEapon(weapon);
+                weapon = this.UpdateAirtableRow<dc.WEapon>("WEapon", "WEapons", "WEapons", weapon);
+                this.AfterUpdateWEapon(weapon);
+                return weapon;
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Delete the given weapon
+        /// </summary>
+        /// <param name="weapon">The weapon to delete</param>
+        public void Delete(dc.WEapon weapon)
+        {
+            try
+            {
+                this.BeforeDeleteWEapon(weapon);
+                this.DeleteAirtableRow<dc.WEapon>("WEapons", weapon);
+                this.AfterDeleteWEapon(weapon);
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+        }
+
+        /// <summary>
+        /// Insert a new weapon into the airtable
+        /// </summary>
+        /// <param name="weapon">The weapon to insert into the airtable</param>
+        /// <returns></returns>
+        public dc.WEapon Insert(dc.WEapon weapon)
+        {
+            try
+            {
+                this.BeforeAddWEapon(weapon);
+                weapon = base.AddAirtableRow<dc.WEapon>("WEapon", "WEapons", "WEapons", weapon);
+                this.AfterAddWEapon(weapon);                
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+
+            return weapon;
+        }
+        /// <summary>
+        /// Returns a list of Levels
+        /// </summary>
+        /// <param name="view">the specific view to pull Levels from</param>
+        /// <returns>The list of Levels from the given view</returns>
+        public IEnumerable<dc.Level> GetLevels(String where = "", String view = "", int maxPages = 5)
+        {
+            var rows = this.GetTableAsAirtableRows("Level", "Levels", "Levels", where, view, maxPages);
+            return rows.ConvertTo<dc.Level>();
+        }
+
+        /// <summary>
+        /// Update the given level
+        /// </summary>
+        /// <param name="level">The level to update</param>
+        public dc.Level Update(dc.Level level)
+        {
+            try
+            {
+                this.BeforeUpdateLevel(level);
+                level = this.UpdateAirtableRow<dc.Level>("Level", "Levels", "Levels", level);
+                this.AfterUpdateLevel(level);
+                return level;
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Delete the given level
+        /// </summary>
+        /// <param name="level">The level to delete</param>
+        public void Delete(dc.Level level)
+        {
+            try
+            {
+                this.BeforeDeleteLevel(level);
+                this.DeleteAirtableRow<dc.Level>("Levels", level);
+                this.AfterDeleteLevel(level);
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+        }
+
+        /// <summary>
+        /// Insert a new level into the airtable
+        /// </summary>
+        /// <param name="level">The level to insert into the airtable</param>
+        /// <returns></returns>
+        public dc.Level Insert(dc.Level level)
+        {
+            try
+            {
+                this.BeforeAddLevel(level);
+                level = base.AddAirtableRow<dc.Level>("Level", "Levels", "Levels", level);
+                this.AfterAddLevel(level);                
+            }
+            catch (SkipOperationException soe)
+            {
+                // Ignore soe exceptions
+                // Console.WriteLine("Ignoring: {0}", soe.Message);
+            }
+
+            return level;
         }
     }
 }

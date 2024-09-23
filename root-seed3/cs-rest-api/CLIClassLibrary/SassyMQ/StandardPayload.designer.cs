@@ -27,6 +27,12 @@ namespace YP.SassyMQ.Lib.RabbitMQ
         public Game Game { get; set; }
         public List<Game> Games { get; set; }
         
+        public WEapon WEapon { get; set; }
+        public List<WEapon> WEapons { get; set; }
+        
+        public Level Level { get; set; }
+        public List<Level> Levels { get; set; }
+        
 
     }
 }

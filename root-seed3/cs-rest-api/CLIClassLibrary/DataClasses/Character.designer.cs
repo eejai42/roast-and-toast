@@ -48,6 +48,9 @@ namespace AirtableDirect.CLI.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "IsMissing")]
         public Nullable<Boolean> IsMissing { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "BackgroundColor")]
+        public String BackgroundColor { get; set; }
+    
         /// <summary>
         /// Short description of the character for the game.
         /// </summary>

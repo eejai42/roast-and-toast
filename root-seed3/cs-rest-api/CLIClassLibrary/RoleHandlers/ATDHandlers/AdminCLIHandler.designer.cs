@@ -39,7 +39,15 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                 sb.AppendLine($"Game: GetGames");
                 sb.AppendLine($"Game: AddGame");
                 sb.AppendLine($"Game: UpdateGame");
-                sb.AppendLine($"void: DeleteGame");                                            
+                sb.AppendLine($"void: DeleteGame");
+                sb.AppendLine($"WEapon: GetWEapons");
+                sb.AppendLine($"WEapon: AddWEapon");
+                sb.AppendLine($"WEapon: UpdateWEapon");
+                sb.AppendLine($"void: DeleteWEapon");
+                sb.AppendLine($"Level: GetLevels");
+                sb.AppendLine($"Level: AddLevel");
+                sb.AppendLine($"Level: UpdateLevel");
+                sb.AppendLine($"void: DeleteLevel");                                            
             }
             
             sb.AppendLine($"{Environment.NewLine}Available Actions Matching: {helpTerm}");
@@ -188,6 +196,78 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                 }
                 found = true;
             }
+            if ("getweapons".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetWEapons");
+                if ("getweapons".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetWEaponsHelp(sb);
+                }
+                found = true;
+            }
+            if ("addweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - AddWEapon");
+                if ("addweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintAddWEaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("updateweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - UpdateWEapon");
+                if ("updateweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintUpdateWEaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("deleteweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - DeleteWEapon");
+                if ("deleteweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintDeleteWEaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("getlevels".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetLevels");
+                if ("getlevels".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetLevelsHelp(sb);
+                }
+                found = true;
+            }
+            if ("addlevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - AddLevel");
+                if ("addlevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintAddLevelHelp(sb);
+                }
+                found = true;
+            }
+            if ("updatelevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - UpdateLevel");
+                if ("updatelevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintUpdateLevelHelp(sb);
+                }
+                found = true;
+            }
+            if ("deletelevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - DeleteLevel");
+                if ("deletelevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintDeleteLevelHelp(sb);
+                }
+                found = true;
+            }
                        
             if (!found)
             {
@@ -290,6 +370,46 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
 
                 case "deletegame":
 				    this.ATDActor.DeleteGame(payload);
+				    result = JsonConvert.SerializeObject(payload, Formatting.Indented);
+                    break;                   
+
+                case "getweapons":
+				    reply = this.ATDActor.GetWEapons(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "addweapon":
+				    reply = this.ATDActor.AddWEapon(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "updateweapon":
+				    reply = this.ATDActor.UpdateWEapon(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "deleteweapon":
+				    this.ATDActor.DeleteWEapon(payload);
+				    result = JsonConvert.SerializeObject(payload, Formatting.Indented);
+                    break;                   
+
+                case "getlevels":
+				    reply = this.ATDActor.GetLevels(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "addlevel":
+				    reply = this.ATDActor.AddLevel(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "updatelevel":
+				    reply = this.ATDActor.UpdateLevel(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "deletelevel":
+				    this.ATDActor.DeleteLevel(payload);
 				    result = JsonConvert.SerializeObject(payload, Formatting.Indented);
                     break;                   
 
@@ -485,6 +605,100 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
         }
         
         public void PrintDeleteGameHelp(StringBuilder sb)
+        {
+            
+        }
+        
+        public void PrintGetWEaponsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: WEapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintAddWEaponHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: WEapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintUpdateWEaponHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: WEapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintDeleteWEaponHelp(StringBuilder sb)
+        {
+            
+        }
+        
+        public void PrintGetLevelsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintAddLevelHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintUpdateLevelHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                
+            
+        }
+        
+        public void PrintDeleteLevelHelp(StringBuilder sb)
         {
             
         }

@@ -65,6 +65,7 @@ namespace CLIClassLibrary.ATDMQ
                     Avatar = cleanCharacter.Avatar,
                     Type = cleanCharacter.Type,
                     IsMissing = cleanCharacter.IsMissing,
+                    BackgroundColor = cleanCharacter.BackgroundColor,
                     Description = cleanCharacter.Description,
                     IntroducedAtLevel = cleanCharacter.IntroducedAtLevel,
                     Game = cleanCharacter.Game,
@@ -134,6 +135,60 @@ namespace CLIClassLibrary.ATDMQ
             }
 
             return GuestGame;
+        }
+        
+        
+        // Guest Cleaning Extension Methods.  -R-
+        
+        // WEapon
+        public static List<dc.WEapon> GuestCleanForGet(this IEnumerable<dc.WEapon> cleanWEapons)
+        {
+            return cleanWEapons.Select(WEapon => WEapon.GuestCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.WEapon GuestCleanForGet(this dc.WEapon cleanWEapon)
+        {
+            var GuestWEapon = default(dc.WEapon);
+
+            if (!ReferenceEquals(cleanWEapon, null))
+            {
+                GuestWEapon = new dc.WEapon()
+                {
+                    WEaponId = cleanWEapon.WEaponId,
+                    Name = cleanWEapon.Name,
+                    Description = cleanWEapon.Description
+                };
+            }
+
+            return GuestWEapon;
+        }
+        
+        
+        // Guest Cleaning Extension Methods.  -R-
+        
+        // Level
+        public static List<dc.Level> GuestCleanForGet(this IEnumerable<dc.Level> cleanLevels)
+        {
+            return cleanLevels.Select(Level => Level.GuestCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.Level GuestCleanForGet(this dc.Level cleanLevel)
+        {
+            var GuestLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                GuestLevel = new dc.Level()
+                {
+                    LevelId = cleanLevel.LevelId,
+                    Name = cleanLevel.Name,
+                    Description = cleanLevel.Description
+                };
+            }
+
+            return GuestLevel;
         }
         
         
@@ -365,6 +420,120 @@ namespace CLIClassLibrary.ATDMQ
             return AdminGame;
         }
 
+        // Admin Cleaning Extension Methods.  -CRUD-
+        
+        // WEapon
+        public static dc.WEapon AdminCleanForAdd(this dc.WEapon cleanWEapon)
+        {
+            var AdminWEapon = default(dc.WEapon);
+
+            if (!ReferenceEquals(cleanWEapon, null))
+            {
+                AdminWEapon = new dc.WEapon()
+                {
+                    
+                };
+                
+            }
+
+            return AdminWEapon;
+        }
+        
+        
+        public static List<dc.WEapon> AdminCleanForGet(this IEnumerable<dc.WEapon> cleanWEapons)
+        {
+            return cleanWEapons.Select(WEapon => WEapon.AdminCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.WEapon AdminCleanForGet(this dc.WEapon cleanWEapon)
+        {
+            var AdminWEapon = default(dc.WEapon);
+
+            if (!ReferenceEquals(cleanWEapon, null))
+            {
+                AdminWEapon = new dc.WEapon()
+                {
+                    
+                };
+            }
+
+            return AdminWEapon;
+        }
+        
+        
+        public static dc.WEapon AdminCleanForUpdate(this dc.WEapon cleanWEapon)
+        {
+            var AdminWEapon = default(dc.WEapon);
+
+            if (!ReferenceEquals(cleanWEapon, null))
+            {
+                AdminWEapon = new dc.WEapon()
+                {
+                    
+                };
+            }
+
+            return AdminWEapon;
+        }
+
+        // Admin Cleaning Extension Methods.  -CRUD-
+        
+        // Level
+        public static dc.Level AdminCleanForAdd(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                    
+                };
+                
+            }
+
+            return AdminLevel;
+        }
+        
+        
+        public static List<dc.Level> AdminCleanForGet(this IEnumerable<dc.Level> cleanLevels)
+        {
+            return cleanLevels.Select(Level => Level.AdminCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.Level AdminCleanForGet(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                    
+                };
+            }
+
+            return AdminLevel;
+        }
+        
+        
+        public static dc.Level AdminCleanForUpdate(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                    
+                };
+            }
+
+            return AdminLevel;
+        }
+
         // Player Cleaning Extension Methods.  --
         
         // Player Cleaning Extension Methods.  --
@@ -372,6 +541,14 @@ namespace CLIClassLibrary.ATDMQ
         // Player Cleaning Extension Methods.  --
         
         // Player Cleaning Extension Methods.  --
+        
+        // Player Cleaning Extension Methods.  --
+        
+        // Player Cleaning Extension Methods.  --
+        
+        // NPC Cleaning Extension Methods.  --
+        
+        // NPC Cleaning Extension Methods.  --
         
         // NPC Cleaning Extension Methods.  --
         

@@ -31,7 +31,9 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                 sb.AppendLine($"GameDetail: GetGameDetails");
                 sb.AppendLine($"Character: GetCharacters");
                 sb.AppendLine($"AppUser: GetAppUsers");
-                sb.AppendLine($"Game: GetGames");                                            
+                sb.AppendLine($"Game: GetGames");
+                sb.AppendLine($"WEapon: GetWEapons");
+                sb.AppendLine($"Level: GetLevels");                                            
             }
             
             sb.AppendLine($"{Environment.NewLine}Available Actions Matching: {helpTerm}");
@@ -108,6 +110,24 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                 }
                 found = true;
             }
+            if ("getweapons".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetWEapons");
+                if ("getweapons".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetWEaponsHelp(sb);
+                }
+                found = true;
+            }
+            if ("getlevels".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetLevels");
+                if ("getlevels".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetLevelsHelp(sb);
+                }
+                found = true;
+            }
                        
             if (!found)
             {
@@ -170,6 +190,16 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
 
                 case "getgames":
 				    reply = this.ATDActor.GetGames(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "getweapons":
+				    reply = this.ATDActor.GetWEapons(payload);
+                    result = JsonConvert.SerializeObject(reply, Formatting.Indented);
+                    break;                   
+
+                case "getlevels":
+				    reply = this.ATDActor.GetLevels(payload);
                     result = JsonConvert.SerializeObject(reply, Formatting.Indented);
                     break;                   
 
@@ -237,6 +267,7 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                     sb.AppendLine($"R      - Avatar");
                     sb.AppendLine($"R      - Type");
                     sb.AppendLine($"R      - IsMissing");
+                    sb.AppendLine($"R      - BackgroundColor");
                     sb.AppendLine($"R      - Description");
                     sb.AppendLine($"R      - IntroducedAtLevel");
                     sb.AppendLine($"R      - Game");
@@ -282,6 +313,40 @@ namespace CLIClassLibrary.RoleHandlers.ATDHandlers
                     sb.AppendLine($"R      - GameDetails");
                     sb.AppendLine($"R      - Characters");
                     sb.AppendLine($"R      - IsDisabled");
+                
+            
+        }
+        
+        public void PrintGetWEaponsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: WEapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"R      - WEaponId");
+                    sb.AppendLine($"R      - Name");
+                    sb.AppendLine($"R      - Description");
+                
+            
+        }
+        
+        public void PrintGetLevelsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"R      - LevelId");
+                    sb.AppendLine($"R      - Name");
+                    sb.AppendLine($"R      - Description");
                 
             
         }

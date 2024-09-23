@@ -49,6 +49,22 @@ namespace CLIClassLibrary.Controllers
                     Url = "/Games",
                     Description = "Get's a list of Games from the data source."
                 }
+            ,
+                new Endpoint()
+                {
+                    Name = "WEapons",
+                    Method = "GET",
+                    Url = "/WEapons",
+                    Description = "Get's a list of WEapons from the data source."
+                }
+            ,
+                new Endpoint()
+                {
+                    Name = "Levels",
+                    Method = "GET",
+                    Url = "/Levels",
+                    Description = "Get's a list of Levels from the data source."
+                }
             
             });
             return Json(actions);

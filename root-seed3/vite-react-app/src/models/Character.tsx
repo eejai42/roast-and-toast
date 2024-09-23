@@ -18,6 +18,7 @@ export interface Character
         * The type of character (Marshmallow, Ninja, NPC, etc.)
         */Type? : string;
     IsMissing? : boolean;
+    BackgroundColor? : string;
     
         /**
         * Short description of the character for the game.

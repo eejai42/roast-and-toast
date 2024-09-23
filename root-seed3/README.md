@@ -5,53 +5,50 @@
 
 </div>
 
-# Roast and Toast - Summer Camp Fun
+## Rooftop Runners
 
-## Overview
+"Rooftop Runners" is an adrenaline-fueled, ninja-themed parkour game that has captivated players with its immersive gameplay and engaging storyline. Set against the backdrop of a densely populated cityscape, the game challenges players to navigate through a labyrinth of doors, roofs, and alleyways while outmaneuvering a menacing rogue gang known as the Shadow Guild. With its heart-pounding action and deep narrative, "Rooftop Runners" stands out as a unique addition to the world of video games.
 
-*Roast and Toast - Summer Camp Fun* is a whimsical, summery camp-themed game where players are tasked with building the best s'mores ever. The game captures the magic of summer camps and combines it with the delightful experience of creating the perfect s'more. With an engaging narrative, charming characters, and incremental challenges, *Roast and Toast* offers an enjoyable gaming experience for both casual and dedicated gamers.
+### Overview
 
-## Game Theme
+In "Rooftop Runners," players step into the role of Silent Tempest, a skilled and agile hero racing against time to save his family from the ruthless Shadow Guild. The narrative thrust of the game is built around the protagonist's desperate attempt to outpace the guild and prevent a tragic fate from befalling his loved ones. Every leap and dash brings the player closer to either saving the family or facing devastating loss, creating an atmosphere laden with tension and urgency.
 
-The gameâ??s theme centers around a summer camp setting. Imagine a breezy day by the lake, towering pine trees surrounding you, and the warm, inviting glow of a campfire where friends gather to toast marshmallows. This idyllic backdrop serves as the foundation for the game's narrative. Each level in the game introduces new ingredients, creating increasingly complex and delicious sâ??mores combinations. The vibrant visuals and heartwarming atmosphere aim to evoke nostalgia and excitement reminiscent of fond summer camp memories.
+The game's theme revolves around maze running, parkour dynamics, and stealth combat, set in an intricately designed urban environment. The combination of fast-paced gameplay and intricate environmental puzzles ensures that players remain engaged and challenged throughout their journey. 
 
-## Gameplay Mechanics
+### Storyline
 
-The primary objective is to create the ultimate sâ??more by assembling various ingredients in the right sequence before time runs out. Players begin with simple tasks like roasting marshmallows to a perfect golden brown without burning them. As they progress through levels, new ingredients such as chocolate bars, graham crackers, and additional toppings are unlocked.
+The story begins with Silent Tempest, a highly trained ninja who has long been at odds with the nefarious Shadow Guild. This rogue organization, led by the formidable Iron Shadow, rules the underbelly of the city with an iron fist, carrying out brutal reprisals against anyone who dares to oppose them.
 
-The difficulty gradually increases, requiring players to manage multiple elements simultaneously. Timing and precision become crucial, and players must use quick reflexes to navigate higher levels successfully. The more complex the sâ??more, the higher the points, which players can use to unlock special items or power-ups that enhance their gameplay experience.
+One day, Silent Tempest returns to find his home in disarray and receives a message from the Shadow Guild informing him that they have taken his family as a punitive measure. The cruel leader, Iron Shadow, has decreed that unless Silent Tempest can reach his family first, they will face a certain and gruesome demise.
 
-## Characters
+Driven by love and desperation, Silent Tempest embarks on a perilous journey across the city's rooftops. His path is fraught with dangers, from treacherous architectural obstacles to relentless guild enforcers. Each level of the game presents a new challenge, drawing the player deeper into a web of intrigue and danger as they piece together the extent of the Shadow Guild's influence.
 
-### Crispy
-Crispy is the charismatic leader of the gameâ??s ensemble cast. This white and puffy marshmallow is notorious for getting slightly burned at the edges but maintains an ever-optimistic outlook. Crispy leads the charge in the quest for the perfect s'more, providing guidance and encouragement to players along the way. Crispy is introduced at Level 1, allowing players to get acquainted with this endearing character from the start.
+### Characters
 
-![Crispy](https://v5.airtableusercontent.com/v3/u/33/33/1727128800000/XUlCCzyEB3GdwNpygoMzwA/IXXwpmtD4n6dNv_F91M09j9qXZeq2gM_0m5nkjivdwvyMTEqA3Tm0vtsw60zTGCM0mwVrL4ifRq-LtwFxnIp8WspY1F6dQ-Sh0VhhfVnDqws-_FMPCTdnkTk2KqwmsDK2DiXMWXImdF4I4TAtm7mrJWSs1nTfXUvp4l3lwck6hk/9nJsv0UP6Sw-vVDUY2Mp9oHBvp_k0oKU7p-u8hDf8dw)
+**Silent Tempest:** The protagonist of the game, Silent Tempest, is a master of parkour and ninja combat. He possesses incredible agility and speed, which he uses to navigate the city's hazardous landscape. Silent Tempest is driven by a fierce determination to save his family, and his skills are put to the ultimate test as he confronts various members of the Shadow Guild.
 
-### Melty
-Melty is the tastiest chocolate bar ever, and he joins the gang in Level 2. Smooth, rich, and just a bit mischievous, Melty adds complexity and depth to the sâ??more-making process. His presence underscores the importance of balancing flavors and textures. Meltyâ??s tips and tricks help players master the art of layering each sâ??more perfectly.
+[Silent Tempest's Avatar](https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/iZcC7oMz7VDZu6Mk4kZWTQ/XrNrZU85ohEEcAF-2uU6SeMDkJqNksM7Lk20fGAlLf7Ee2TJ0soev1PZ2UgJKp3GkZG-PQ-tceNAAMp6gwcRNaSIrYoTU-2utxpu1q4jnELzYhFDZlX4osOzVQkszCVlU24t2j6eYpS9MUu6laTibwvJR47TZhySNdHo_0RB1rM/MjSo76lLMNkQ5NTyemka3jVz4bY4xYxhXlQkEul6gWk)
 
-![Melty](https://v5.airtableusercontent.com/v3/u/33/33/1727128800000/h520OiLSrrsMrVdsuZUt3Q/b9RDR4QJKvmpYMweYjww0QNFZ7XE6I1bWDVi5v3BCM5Ctw42zqDpekJ8S4oa2Iuja3Cd1pe5Z0534vgwrVIDT0RUNGGVGJatwAK8OjXynCcMMHAlkGWDjM9RnFw73uwyE79YL_BwTcKWEheIzmQrcw/usIhb1fEL87pYjqxoxCpkB4eOIDQyS6EUusezAmPZvc)
+**Iron Shadow:** The antagonist of the game, Iron Shadow, is the enigmatic and fearsome leader of the Shadow Guild. Known for his ruthless tactics and unwavering resolve, Iron Shadow commands respect and fear from his subordinates. His motivation for targeting Silent Tempest's family remains shrouded in mystery, adding an additional layer of intrigue to the story.
 
-### Crunchy
-Crunchy, the charming graham cracker, makes an entrance at Level 3. Often seen hanging around the sâ??mores gang, Crunchy brings stability and crunchiness to the mix. With witty remarks and sage advice, Crunchy quickly becomes a player favorite. Learning to balance Crunchyâ??s crisp texture with the gooey filling elements is key to mastering the game.
+[Iron Shadow's Avatar](https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/d71us_4a7NQsfoFLy9c8lg/Lxiv4JbICsN4CKtGnt7IKzIFQCQo4ZM5bmLky5lmvS4OARxyEvVU4goX4GQydgTA2BMyj0a37pltJYqcXoRzMqDdPP4-In0aD_Y4UHcSkJLw9pMCPNX9Pb36pLKZ5SHkGc1Ix0-yDsgwS_ggY7JKFEKCo3FwNj1j7DHH9qhHUIw/Ow8bKhnUMzrOMZo4e34hvpTiB85B_DOpBYL-x70JN_0)
 
-![Crunchy](https://v5.airtableusercontent.com/v3/u/33/33/1727128800000/lUoBEpXGorPg89NnUUF1-w/kJFfrjTRTAP320U48HHPAr5XvjQ7weKhva6kwtv0sGndpMmkcf3HtGbu6eZ4yVZwwNF1dNvraMxdauKp5N1-cvPNYB0-srSMUoKXzLdoS5UhgXjcDxpGZBi1v5_v5yqKUmZsfkW274RXqpoYEaK2iRho7l2n5yUGtTcPQX_FQxQ/zkcHOyabjWr7JGc2cvgjDMtPNhCHufa6gZLGHMRm0XE)
+### Gameplay Mechanics
 
-## Development and Updates
+"Rooftop Runners" excels in delivering a seamless blend of platforming and combat mechanics. The game's parkour elements are designed to provide fluid movement across complex urban environments. Players can perform a variety of moves, including wall runs, vaults, and precision jumps, all of which are essential for navigating the challenging terrain.
 
-*Roast and Toast* is currently on version 1.1, marking a significant period of refinement and enhancement since its initial release. The development team consistently introduces updates based on user feedback and gameplay data. Early versions focused on establishing core mechanics and fleshing out character personalities. Subsequent updates have improved graphics, added new levels, fine-tuned game physics, and introduced additional customization options.
+As players progress, they encounter increasingly difficult obstacles and enemy encounters. The combat system allows Silent Tempest to utilize his ninja training, enabling him to engage in swift and lethal attacks using swords, knives, and other weapons. Stealth plays a crucial role, as evading detection by enemies can mean the difference between life and death.
 
-## Unique Features
+The game is structured around a series of levels, each representing a different part of the city. From the protagonist's home to the bustling city center, each level introduces unique challenges and aesthetic designs, keeping the gameplay experience fresh and engaging.
 
-**Incremental Ingredient Introduction**: A distinguishing feature of *Roast and Toast* is the introduction of new ingredients at each level. This keeps the gameplay fresh and challenging, as players must adapt their strategies to incorporate new elements seamlessly. Starting from a simple marshmallow, each subsequent level tests the player's ability to juggle different components effectively.
+### Weapons and Tools
 
-**Character Narratives**: The gameâ??s charm lies significantly in its well-developed characters. Each character provides unique insights, backstories, and humorous dialogue, enriching the playerâ??s experience. Their interactions not only guide the player but also add layers of storytelling, making the journey feel more immersive and engaging.
+Silent Tempest has access to a range of traditional ninja weaponry, each serving a specific purpose in both combat and traversal.
 
-**Dynamic Challenges and Power-Ups**: As the players advance, dynamic challenges such as unexpected weather changes or surprise guest campers are introduced to add unpredictability. Power-ups and special items offer strategic advantages, adding a layer of depth to the planning and execution of each level.
+**Katana:** The katana is Silent Tempestâ??s primary weapon, offering a balance of speed and power. It is particularly effective in close quarters combat, allowing for quick and precise strikes against enemies.
 
-## Player Community and Feedback
+**Knives:** Silent Tempest also wields smaller knives, which can be used for quick attacks or thrown at distant foes. These knives add an element of ranged combat, providing versatility in various combat scenarios.
 
-The player community forms the backbone of *Roast and Toast*. Online forums, social media groups, and dedicated fan sites are buzzing with discussions about strategies, character fan art, and gameplay tips. The developers actively encourage community participation through regular contests, Q&A sessions, and beta testing opportunities.
+[Weapons Image](https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/pF3xOYnRjeWzyVQHWQyx4Q/ua-5hPAT5Q_2el--2ks0Jbt85x2qlTe41t1xjxSDZs8PWSkkbQnlKOnPSs1_eCBkoi0Ra3OKrfyz7Q4Fv5SJ8JU7V0DOtsp0e-sbLdtiYYSa5lebn4Qq1SnXTOOeR-yXb1W-58ShNx6J81YuBCrZcuWdwLpWi4HvLj3zpk9hM_g)
 
-Player feedback has been instrumental in shaping the gameâ??s evolution. Requests for certain features, bug reports, and general suggestions submitted by players have led to
+Silence may also employ various tools to aid in his mission, such as smoke bombs for evasion and grappling hooks for scaling heights quickly. These tools contribute to the

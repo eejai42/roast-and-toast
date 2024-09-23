@@ -27,6 +27,20 @@
                 "Description": "A list of games defined.",
                 "PluralName": "Games",
                 "AirtableName": "Games"
+            },
+            {
+                "Name": "WEapon",
+                "DisplayName": "WEapon",
+                "Description": "This is the description of WEapons",
+                "PluralName": "WEapons",
+                "AirtableName": "WEapons"
+            },
+            {
+                "Name": "Level",
+                "DisplayName": "Level",
+                "Description": "This is the description of Levels",
+                "PluralName": "Levels",
+                "AirtableName": "Levels"
             }
     ]
 }

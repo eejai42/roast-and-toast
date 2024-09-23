@@ -138,6 +138,38 @@ namespace CLIClassLibrary.ATDMQ
         }
 
       
+ // IsUpdate: false - WEapon.
+       public IEnumerable<WEapon> GetWEapons(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.GetWEapons(WrapGuestGetWEaponsWhere(Payload.AirtableWhere), Payload.View, Payload.MaxPages).GuestCleanForGet();
+			}        
+        private string WrapGuestGetWEaponsWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+
+      
+ // IsUpdate: false - Level.
+       public IEnumerable<Level> GetLevels(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.GetLevels(WrapGuestGetLevelsWhere(Payload.AirtableWhere), Payload.View, Payload.MaxPages).GuestCleanForGet();
+			}        
+        private string WrapGuestGetLevelsWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+
+      
 
     }
 }

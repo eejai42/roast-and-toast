@@ -5,6 +5,8 @@ import { GameDetail } from '../models/GameDetail';
 import { Character } from '../models/Character';
 import { AppUser } from '../models/AppUser';
 import { Game } from '../models/Game';
+import { WEapon } from '../models/WEapon';
+import { Level } from '../models/Level';
 
 
 
@@ -21,6 +23,12 @@ class GuestService extends BaseService {
     }
     async GetGames(view:string = "") : Promise<Game[]> { 
         return this.apiCall("GET", "Guest", "Games", view, null); // Game
+    }
+    async GetWEapons(view:string = "") : Promise<WEapon[]> { 
+        return this.apiCall("GET", "Guest", "WEapons", view, null); // WEapon
+    }
+    async GetLevels(view:string = "") : Promise<Level[]> { 
+        return this.apiCall("GET", "Guest", "Levels", view, null); // Level
     }
 }
 
