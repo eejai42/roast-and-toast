@@ -1,0 +1,979 @@
+
+{
+  "Ontology": {
+    "Name": "RoastandToastGameInfo.xlsx",
+    "BaseId": "appmrdAZppf3BM8LL",
+    "OriginalName": "Roast_and_Toast_Game_Info.xlsx",
+    "OntologyGroups": {
+      "OntologyGroup": [
+        {
+          "Name": "Dbo",
+          "RolesWithCRUD": "Admin,Player,NPC,Guest:R",
+          "OriginalName": "dbo",
+          "Roles": "Admin,Player,NPC,Guest",
+          "ObjectDefs": {
+            "ObjectDef": [
+              {
+                "Name": "GameDetail",
+                "Description": "A list of details associated with the game.",
+                "SingularName": "GameDetail",
+                "PluralName": "GameDetails",
+                "OriginalName": "GameDetails",
+                "AirtableName": "GameDetails",
+                "SortOrder": "1",
+                "AdminCRUD": "CRUD",
+                "AdminAirtableWhere": "",
+                "PlayerCRUD": "",
+                "PlayerAirtableWhere": "",
+                "NPCCRUD": "",
+                "NPCAirtableWhere": "",
+                "GuestCRUD": "R",
+                "GuestAirtableWhere": "",
+                "MatchingMetaData": {
+                  "id": "tbl6hkyhAwWsoP9Wf",
+                  "primaryFieldId": "Name",
+                  "fields": "[{\"type\":\"multilineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"The Name of an attribute of the project\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"LoadingScreen\",\"result\":{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false}}},\"id\":\"GameLoadingScreen\",\"name\":\"GameLoadingScreen\",\"description\":\"The name of the game associated with the game detail.\"},{\"type\":\"multilineText\",\"id\":\"Value\",\"name\":\"Value\",\"description\":\"The Value of an attribute of the project\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblkrN2PBfUbbjTKS\",\"isReversed\":false,\"prefersSingleRecordLink\":true,\"inverseLinkFieldId\":\"GameDetails\"},\"id\":\"Game\",\"name\":\"Game\",\"description\":\"The game that this attribute/detail is associated with.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsActive\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsActive\",\"name\":\"GameIsActive\",\"description\":\"A flag indicating if the game is the active game.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsDisabled\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsDisabled\",\"name\":\"GameIsDisabled\",\"description\":\"A flag indicating if the associated game has been disabled (removed).\"}]",
+                  "views": "[{\"id\":\"viw4E53cPhKB7wOsd\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viw5OmEgY3oMvCbXr\",\"name\":\"For Editing\",\"type\":\"grid\"}]",
+                  "options": null
+                },
+                "PropertyDefs": {
+                  "PropertyDef": [
+                    {
+                      "Name": "GameDetailId",
+                      "Description": "",
+                      "OriginalName": "GameDetailId",
+                      "IsPrimaryKey": "1",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "0",
+                      "SortOrder": "1",
+                      "IsReadOnly": "1",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "string",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Name",
+                      "Description": "The Name of an attribute of the project",
+                      "OriginalName": "Name",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "2",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldiFduZOKryNk6HG",
+                        "id": "Name",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "GameLoadingScreen",
+                      "Description": "The name of the game associated with the game detail.",
+                      "OriginalName": "GameLoadingScreen",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "3",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleLookupValues",
+                        "AirtableId": "fldnOzWLtXbon0NnF",
+                        "options": {
+                          "isValid": "true",
+                          "recordLinkFieldId": "Game",
+                          "fieldIdInLinkedTable": "LoadingScreen",
+                          "result": {
+                            "type": "multipleAttachments",
+                            "options": {
+                              "isReversed": "false"
+                            }
+                          }
+                        },
+                        "id": "GameLoadingScreen"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Value",
+                      "Description": "The Value of an attribute of the project",
+                      "OriginalName": "Value",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "4",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldFpyZiNnTYx1tie",
+                        "id": "Value",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Game",
+                      "Description": "The game that this attribute/detail is associated with.",
+                      "OriginalName": "Game",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "5",
+                      "RemoteIsCollection": "1",
+                      "Relationships": {
+                        "Relationship": [
+                          {
+                            "ReferencedObjectDef": "Game",
+                            "ReferencedPropertyDef": "GameDetails"
+                          }
+                        ]
+                      },
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleRecordLinks",
+                        "AirtableId": "fldpQeuGQtaOL9KN7",
+                        "options": {
+                          "linkedTableId": "tblkrN2PBfUbbjTKS",
+                          "isReversed": "false",
+                          "prefersSingleRecordLink": "true",
+                          "inverseLinkFieldId": "GameDetails"
+                        },
+                        "id": "Game"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "GameIsActive",
+                      "Description": "A flag indicating if the game is the active game.",
+                      "OriginalName": "GameIsActive",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "BOOLEAN",
+                      "SortOrder": "6",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleLookupValues",
+                        "AirtableId": "flduMPYTmCryDorf5",
+                        "options": {
+                          "isValid": "true",
+                          "recordLinkFieldId": "Game",
+                          "fieldIdInLinkedTable": "IsActive",
+                          "result": {
+                            "type": "checkbox",
+                            "options": {
+                              "icon": "check",
+                              "color": "greenBright"
+                            }
+                          }
+                        },
+                        "id": "GameIsActive"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "GameIsDisabled",
+                      "Description": "A flag indicating if the associated game has been disabled (removed).",
+                      "OriginalName": "GameIsDisabled",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "BOOLEAN",
+                      "SortOrder": "7",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleLookupValues",
+                        "AirtableId": "fldDsSnusmnhiGjIz",
+                        "options": {
+                          "isValid": "true",
+                          "recordLinkFieldId": "Game",
+                          "fieldIdInLinkedTable": "IsDisabled",
+                          "result": {
+                            "type": "checkbox",
+                            "options": {
+                              "icon": "check",
+                              "color": "greenBright"
+                            }
+                          }
+                        },
+                        "id": "GameIsDisabled"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "Character",
+                "Description": "A list of characters in the game.",
+                "SingularName": "Character",
+                "PluralName": "Characters",
+                "OriginalName": "Characters",
+                "AirtableName": "Characters",
+                "SortOrder": "2",
+                "AdminCRUD": "CRUD",
+                "AdminAirtableWhere": "",
+                "PlayerCRUD": "",
+                "PlayerAirtableWhere": "",
+                "NPCCRUD": "",
+                "NPCAirtableWhere": "",
+                "GuestCRUD": "R",
+                "GuestAirtableWhere": "",
+                "MatchingMetaData": {
+                  "id": "tblSeeEU9eaY8wMEV",
+                  "primaryFieldId": "Name",
+                  "fields": "[{\"type\":\"multilineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the character.\"},{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false},\"id\":\"Avatar\",\"name\":\"Avatar\",\"description\":\"A url to an image for this character in the game\"},{\"type\":\"singleSelect\",\"options\":{\"choices\":[{\"id\":\"seliMU5kDXjuDdhW2\",\"name\":\"Marshmallow\",\"color\":\"blueLight2\"},{\"id\":\"selowrEf0vdYsFTgo\",\"name\":\"Chocolate Bar\",\"color\":\"cyanLight2\"},{\"id\":\"selc1smmUAuySCZnN\",\"name\":\"Graham Cracker\",\"color\":\"tealLight2\"},{\"id\":\"selsn1aplLyAIGJxq\",\"name\":\"Hero\",\"color\":\"purpleLight2\"},{\"id\":\"selzAfjISjfMu3cqJ\",\"name\":\"ShadowGuild\",\"color\":\"grayLight2\"},{\"id\":\"sel5K8uCeWKSYqsm4\",\"name\":\"Councelor\",\"color\":\"redLight2\"}]},\"id\":\"Type\",\"name\":\"Type\",\"description\":\"The type of character (Marshmallow, Ninja, NPC, etc.)\"},{\"type\":\"multilineText\",\"id\":\"Description\",\"name\":\"Description\",\"description\":\"Short description of the character for the game.\"},{\"type\":\"number\",\"options\":{\"precision\":0},\"id\":\"IntroducedAtLevel\",\"name\":\"IntroducedAtLevel\",\"description\":\"The number of the level which the character shows up.  For some games, all characters will be introduced right out of the gate.  This field is agnostic of the specific values   - and it can be left blank.\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblkrN2PBfUbbjTKS\",\"isReversed\":false,\"prefersSingleRecordLink\":true,\"inverseLinkFieldId\":\"Characters\"},\"id\":\"Game\",\"name\":\"Game\",\"description\":\"The game associated with this character.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsActive\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsActive\",\"name\":\"GameIsActive\",\"description\":\"A flag for whether the game associated with this character is active.\"}]",
+                  "views": "[{\"id\":\"viwFkiIKgJXkbgvdO\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viwcfOWZ2OlfLU9Om\",\"name\":\"Ninjas\",\"type\":\"grid\"},{\"id\":\"viwdaOpkGrspfjriB\",\"name\":\"Grid 3\",\"type\":\"grid\"}]",
+                  "options": null
+                },
+                "PropertyDefs": {
+                  "PropertyDef": [
+                    {
+                      "Name": "CharacterId",
+                      "Description": "",
+                      "OriginalName": "CharacterId",
+                      "IsPrimaryKey": "1",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "0",
+                      "SortOrder": "1",
+                      "IsReadOnly": "1",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "string",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Name",
+                      "Description": "Name of the character.",
+                      "OriginalName": "Name",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "2",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldiFduZOKryNk6HG",
+                        "id": "Name",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Avatar",
+                      "Description": "A url to an image for this character in the game",
+                      "OriginalName": "Avatar",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "3",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleAttachments",
+                        "AirtableId": "fldQzVynvfDVe69jd",
+                        "options": {
+                          "isReversed": "false"
+                        },
+                        "id": "Avatar"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Type",
+                      "Description": "The type of character (Marshmallow, Ninja, NPC, etc.)",
+                      "OriginalName": "Type",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "EnumValues": "Marshmallow,Chocolate Bar,Graham Cracker,Hero,ShadowGuild,Councelor",
+                      "SortOrder": "4",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "singleSelect",
+                        "AirtableId": "fldHniVXvcFRSJFvB",
+                        "options": {
+                          "choices": [
+                            {
+                              "id": "seliMU5kDXjuDdhW2",
+                              "name": "Marshmallow",
+                              "color": "blueLight2"
+                            },
+                            {
+                              "id": "selowrEf0vdYsFTgo",
+                              "name": "Chocolate Bar",
+                              "color": "cyanLight2"
+                            },
+                            {
+                              "id": "selc1smmUAuySCZnN",
+                              "name": "Graham Cracker",
+                              "color": "tealLight2"
+                            },
+                            {
+                              "id": "selsn1aplLyAIGJxq",
+                              "name": "Hero",
+                              "color": "purpleLight2"
+                            },
+                            {
+                              "id": "selzAfjISjfMu3cqJ",
+                              "name": "ShadowGuild",
+                              "color": "grayLight2"
+                            },
+                            {
+                              "id": "sel5K8uCeWKSYqsm4",
+                              "name": "Councelor",
+                              "color": "redLight2"
+                            }
+                          ]
+                        },
+                        "id": "Type"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Description",
+                      "Description": "Short description of the character for the game.",
+                      "OriginalName": "Description",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "5",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldJpTDgk6hTTodAk",
+                        "id": "Description",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "IntroducedAtLevel",
+                      "Description": "The number of the level which the character shows up.  For some games, all characters will be introduced right out of the gate.  This field is agnostic of the specific values   - and it can be left blank.",
+                      "OriginalName": "IntroducedAtLevel",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "INT32",
+                      "SortOrder": "6",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "number",
+                        "AirtableId": "fldKyWcaThKKgKxke",
+                        "options": {
+                          "precision": "0"
+                        },
+                        "id": "IntroducedAtLevel"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Game",
+                      "Description": "The game associated with this character.",
+                      "OriginalName": "Game",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "7",
+                      "RemoteIsCollection": "1",
+                      "Relationships": {
+                        "Relationship": [
+                          {
+                            "ReferencedObjectDef": "Game",
+                            "ReferencedPropertyDef": "Characters"
+                          }
+                        ]
+                      },
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleRecordLinks",
+                        "AirtableId": "fldpQeuGQtaOL9KN7",
+                        "options": {
+                          "linkedTableId": "tblkrN2PBfUbbjTKS",
+                          "isReversed": "false",
+                          "prefersSingleRecordLink": "true",
+                          "inverseLinkFieldId": "Characters"
+                        },
+                        "id": "Game"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "GameIsActive",
+                      "Description": "A flag for whether the game associated with this character is active.",
+                      "OriginalName": "GameIsActive",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "BOOLEAN",
+                      "SortOrder": "8",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleLookupValues",
+                        "AirtableId": "flduMPYTmCryDorf5",
+                        "options": {
+                          "isValid": "true",
+                          "recordLinkFieldId": "Game",
+                          "fieldIdInLinkedTable": "IsActive",
+                          "result": {
+                            "type": "checkbox",
+                            "options": {
+                              "icon": "check",
+                              "color": "greenBright"
+                            }
+                          }
+                        },
+                        "id": "GameIsActive"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "AppUser",
+                "Description": "A list of users allowed to access games.",
+                "SingularName": "AppUser",
+                "PluralName": "AppUsers",
+                "OriginalName": "AppUsers",
+                "AirtableName": "AppUsers",
+                "SortOrder": "3",
+                "AdminCRUD": "CRUD",
+                "AdminAirtableWhere": "",
+                "PlayerCRUD": "",
+                "PlayerAirtableWhere": "",
+                "NPCCRUD": "",
+                "NPCAirtableWhere": "",
+                "GuestCRUD": "R",
+                "GuestAirtableWhere": "",
+                "MatchingMetaData": {
+                  "id": "tblGU8XaJFxt8O7FQ",
+                  "primaryFieldId": "Name",
+                  "fields": "[{\"type\":\"singleLineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the app user.\"},{\"type\":\"multilineText\",\"id\":\"Notes\",\"name\":\"Notes\",\"description\":\"Notes about the app user.\"},{\"type\":\"singleLineText\",\"id\":\"EmailAddress\",\"name\":\"EmailAddress\",\"description\":\"The email address associated with the app user.\"},{\"type\":\"multipleSelects\",\"options\":{\"choices\":[{\"id\":\"sels43xWLdsjAbaBX\",\"name\":\"Admin\",\"color\":\"blueLight2\"},{\"id\":\"sel7i031nOOIvt6vW\",\"name\":\"Player\",\"color\":\"cyanLight2\"},{\"id\":\"selWWp6TFNJlg9b59\",\"name\":\"NPC\",\"color\":\"tealLight2\"},{\"id\":\"selsybfNC3AGBApcc\",\"name\":\"Guest\",\"color\":\"greenLight2\"}]},\"id\":\"Roles\",\"name\":\"Roles\",\"description\":\"Roles associated with the games.\"}]",
+                  "views": "[{\"id\":\"viwIS5OgIzJyzTULY\",\"name\":\"Grid view\",\"type\":\"grid\"}]",
+                  "options": null
+                },
+                "PropertyDefs": {
+                  "PropertyDef": [
+                    {
+                      "Name": "AppUserId",
+                      "Description": "",
+                      "OriginalName": "AppUserId",
+                      "IsPrimaryKey": "1",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "0",
+                      "SortOrder": "1",
+                      "IsReadOnly": "1",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "string",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Name",
+                      "Description": "Name of the app user.",
+                      "OriginalName": "Name",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "2",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "singleLineText",
+                        "AirtableId": "fldiFduZOKryNk6HG",
+                        "id": "Name",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Notes",
+                      "Description": "Notes about the app user.",
+                      "OriginalName": "Notes",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "3",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldHEro2v1YmnOtIW",
+                        "id": "Notes",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "EmailAddress",
+                      "Description": "The email address associated with the app user.",
+                      "OriginalName": "EmailAddress",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "4",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "singleLineText",
+                        "AirtableId": "fldz1SBRenMYM7fuD",
+                        "id": "EmailAddress",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Roles",
+                      "Description": "Roles associated with the games.",
+                      "OriginalName": "Roles",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "EnumValues": "Admin,Player,NPC,Guest",
+                      "SortOrder": "5",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleSelects",
+                        "AirtableId": "fldhOAoe0ufiY3tCL",
+                        "options": {
+                          "choices": [
+                            {
+                              "id": "sels43xWLdsjAbaBX",
+                              "name": "Admin",
+                              "color": "blueLight2"
+                            },
+                            {
+                              "id": "sel7i031nOOIvt6vW",
+                              "name": "Player",
+                              "color": "cyanLight2"
+                            },
+                            {
+                              "id": "selWWp6TFNJlg9b59",
+                              "name": "NPC",
+                              "color": "tealLight2"
+                            },
+                            {
+                              "id": "selsybfNC3AGBApcc",
+                              "name": "Guest",
+                              "color": "greenLight2"
+                            }
+                          ]
+                        },
+                        "id": "Roles"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    }
+                  ]
+                }
+              },
+              {
+                "Name": "Game",
+                "Description": "A list of games defined.",
+                "SingularName": "Game",
+                "PluralName": "Games",
+                "OriginalName": "Games",
+                "AirtableName": "Games",
+                "SortOrder": "4",
+                "AdminCRUD": "CRUD",
+                "AdminAirtableWhere": "",
+                "PlayerCRUD": "",
+                "PlayerAirtableWhere": "",
+                "NPCCRUD": "",
+                "NPCAirtableWhere": "",
+                "GuestCRUD": "R",
+                "GuestAirtableWhere": "",
+                "MatchingMetaData": {
+                  "id": "tblkrN2PBfUbbjTKS",
+                  "primaryFieldId": "Name",
+                  "fields": "[{\"type\":\"singleLineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the character.\"},{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false},\"id\":\"LoadingScreen\",\"name\":\"LoadingScreen\",\"description\":\"Loading screen image.\"},{\"type\":\"multilineText\",\"id\":\"Notes\",\"name\":\"Notes\",\"description\":\"Notes about the game\"},{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"},\"id\":\"IsActive\",\"name\":\"IsActive\",\"description\":\"A flag indicating if this game is the active game.\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tbl6hkyhAwWsoP9Wf\",\"isReversed\":false,\"prefersSingleRecordLink\":false,\"inverseLinkFieldId\":\"Game\"},\"id\":\"GameDetails\",\"name\":\"GameDetails\",\"description\":\"Links to the details about the game\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblSeeEU9eaY8wMEV\",\"isReversed\":false,\"prefersSingleRecordLink\":false,\"inverseLinkFieldId\":\"Game\"},\"id\":\"Characters\",\"name\":\"Characters\",\"description\":\"A list of characters in the game.\"},{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"},\"id\":\"IsDisabled\",\"name\":\"IsDisabled\",\"description\":\"Flag indicating if the game is disabled.\"}]",
+                  "views": "[{\"id\":\"viwoVMy9ba2aAvXFL\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viwopmpNiULyqhKzb\",\"name\":\"Grid 2\",\"type\":\"grid\"}]",
+                  "options": null
+                },
+                "PropertyDefs": {
+                  "PropertyDef": [
+                    {
+                      "Name": "GameId",
+                      "Description": "",
+                      "OriginalName": "GameId",
+                      "IsPrimaryKey": "1",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "0",
+                      "SortOrder": "1",
+                      "IsReadOnly": "1",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "string",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Name",
+                      "Description": "Name of the character.",
+                      "OriginalName": "Name",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "2",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "singleLineText",
+                        "AirtableId": "fldiFduZOKryNk6HG",
+                        "id": "Name",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "LoadingScreen",
+                      "Description": "Loading screen image.",
+                      "OriginalName": "LoadingScreen",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "3",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleAttachments",
+                        "AirtableId": "fldEnzKVbU26rL5Tp",
+                        "options": {
+                          "isReversed": "false"
+                        },
+                        "id": "LoadingScreen"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Notes",
+                      "Description": "Notes about the game",
+                      "OriginalName": "Notes",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "4",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "multilineText",
+                        "AirtableId": "fldHEro2v1YmnOtIW",
+                        "id": "Notes",
+                        "options": null
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "IsActive",
+                      "Description": "A flag indicating if this game is the active game.",
+                      "OriginalName": "IsActive",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "BOOLEAN",
+                      "SortOrder": "5",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "checkbox",
+                        "AirtableId": "fldJiX29jwJsPRXMD",
+                        "options": {
+                          "icon": "check",
+                          "color": "greenBright"
+                        },
+                        "id": "IsActive"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "GameDetails",
+                      "Description": "Links to the details about the game",
+                      "OriginalName": "GameDetails",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "6",
+                      "RemoteIsCollection": "0",
+                      "Relationships": {
+                        "Relationship": [
+                          {
+                            "ReferencedObjectDef": "GameDetail",
+                            "ReferencedPropertyDef": "Game"
+                          }
+                        ]
+                      },
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleRecordLinks",
+                        "AirtableId": "fldlVNGJW0LnquYsR",
+                        "options": {
+                          "linkedTableId": "tbl6hkyhAwWsoP9Wf",
+                          "isReversed": "false",
+                          "prefersSingleRecordLink": "false",
+                          "inverseLinkFieldId": "Game"
+                        },
+                        "id": "GameDetails"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "Characters",
+                      "Description": "A list of characters in the game.",
+                      "OriginalName": "Characters",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "String",
+                      "Length": "-1",
+                      "SortOrder": "7",
+                      "RemoteIsCollection": "0",
+                      "Relationships": {
+                        "Relationship": [
+                          {
+                            "ReferencedObjectDef": "Character",
+                            "ReferencedPropertyDef": "Game"
+                          }
+                        ]
+                      },
+                      "MatchingMetaData": {
+                        "OriginalType": "multipleRecordLinks",
+                        "AirtableId": "fldfLzCg03lmEimsR",
+                        "options": {
+                          "linkedTableId": "tblSeeEU9eaY8wMEV",
+                          "isReversed": "false",
+                          "prefersSingleRecordLink": "false",
+                          "inverseLinkFieldId": "Game"
+                        },
+                        "id": "Characters"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    },
+                    {
+                      "Name": "IsDisabled",
+                      "Description": "Flag indicating if the game is disabled.",
+                      "OriginalName": "IsDisabled",
+                      "IsPrimaryKey": "0",
+                      "IsNullable": "1",
+                      "DataType": "BOOLEAN",
+                      "SortOrder": "8",
+                      "RemoteIsCollection": "0",
+                      "MatchingMetaData": {
+                        "OriginalType": "checkbox",
+                        "AirtableId": "fldMiQR1uDELPfWOJ",
+                        "options": {
+                          "icon": "check",
+                          "color": "greenBright"
+                        },
+                        "id": "IsDisabled"
+                      },
+                      "AdminCRUD": "",
+                      "PlayerCRUD": "",
+                      "NPCCRUD": "",
+                      "GuestCRUD": "R"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "AirtableTables": {
+            "id": "tbl6hkyhAwWsoP9Wf",
+            "name": "GameDetails",
+            "description": "A list of details associated with the game.",
+            "primaryFieldId": "Name",
+            "fields": [
+              {
+                "type": "multilineText",
+                "id": "Name",
+                "name": "Name",
+                "description": "The Name of an attribute of the project"
+              },
+              {
+                "type": "multipleLookupValues",
+                "options": {
+                  "isValid": "true",
+                  "recordLinkFieldId": "Game",
+                  "fieldIdInLinkedTable": "LoadingScreen",
+                  "result": {
+                    "type": "multipleAttachments",
+                    "options": {
+                      "isReversed": "false"
+                    }
+                  }
+                },
+                "id": "GameLoadingScreen",
+                "name": "GameLoadingScreen",
+                "description": "The name of the game associated with the game detail."
+              },
+              {
+                "type": "multilineText",
+                "id": "Value",
+                "name": "Value",
+                "description": "The Value of an attribute of the project"
+              },
+              {
+                "type": "multipleRecordLinks",
+                "options": {
+                  "linkedTableId": "tblkrN2PBfUbbjTKS",
+                  "isReversed": "false",
+                  "prefersSingleRecordLink": "true",
+                  "inverseLinkFieldId": "GameDetails"
+                },
+                "id": "Game",
+                "name": "Game",
+                "description": "The game that this attribute/detail is associated with."
+              },
+              {
+                "type": "multipleLookupValues",
+                "options": {
+                  "isValid": "true",
+                  "recordLinkFieldId": "Game",
+                  "fieldIdInLinkedTable": "IsActive",
+                  "result": {
+                    "type": "checkbox",
+                    "options": {
+                      "icon": "check",
+                      "color": "greenBright"
+                    }
+                  }
+                },
+                "id": "GameIsActive",
+                "name": "GameIsActive",
+                "description": "A flag indicating if the game is the active game."
+              },
+              {
+                "type": "multipleLookupValues",
+                "options": {
+                  "isValid": "true",
+                  "recordLinkFieldId": "Game",
+                  "fieldIdInLinkedTable": "IsDisabled",
+                  "result": {
+                    "type": "checkbox",
+                    "options": {
+                      "icon": "check",
+                      "color": "greenBright"
+                    }
+                  }
+                },
+                "id": "GameIsDisabled",
+                "name": "GameIsDisabled",
+                "description": "A flag indicating if the associated game has been disabled (removed)."
+              }
+            ],
+            "views": [
+              {
+                "id": "viw4E53cPhKB7wOsd",
+                "name": "Grid view",
+                "type": "grid"
+              },
+              {
+                "id": "viw5OmEgY3oMvCbXr",
+                "name": "For Editing",
+                "type": "grid"
+              }
+            ]
+          },
+          "AirtableSchema": "{\"tables\":[{\"id\":\"tbl6hkyhAwWsoP9Wf\",\"name\":\"GameDetails\",\"description\":\"A list of details associated with the game.\",\"primaryFieldId\":\"Name\",\"fields\":[{\"type\":\"multilineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"The Name of an attribute of the project\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"LoadingScreen\",\"result\":{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false}}},\"id\":\"GameLoadingScreen\",\"name\":\"GameLoadingScreen\",\"description\":\"The name of the game associated with the game detail.\"},{\"type\":\"multilineText\",\"id\":\"Value\",\"name\":\"Value\",\"description\":\"The Value of an attribute of the project\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblkrN2PBfUbbjTKS\",\"isReversed\":false,\"prefersSingleRecordLink\":true,\"inverseLinkFieldId\":\"GameDetails\"},\"id\":\"Game\",\"name\":\"Game\",\"description\":\"The game that this attribute/detail is associated with.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsActive\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsActive\",\"name\":\"GameIsActive\",\"description\":\"A flag indicating if the game is the active game.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsDisabled\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsDisabled\",\"name\":\"GameIsDisabled\",\"description\":\"A flag indicating if the associated game has been disabled (removed).\"}],\"views\":[{\"id\":\"viw4E53cPhKB7wOsd\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viw5OmEgY3oMvCbXr\",\"name\":\"For Editing\",\"type\":\"grid\"}]},{\"id\":\"tblSeeEU9eaY8wMEV\",\"name\":\"Characters\",\"description\":\"A list of characters in the game.\",\"primaryFieldId\":\"Name\",\"fields\":[{\"type\":\"multilineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the character.\"},{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false},\"id\":\"Avatar\",\"name\":\"Avatar\",\"description\":\"A url to an image for this character in the game\"},{\"type\":\"singleSelect\",\"options\":{\"choices\":[{\"id\":\"seliMU5kDXjuDdhW2\",\"name\":\"Marshmallow\",\"color\":\"blueLight2\"},{\"id\":\"selowrEf0vdYsFTgo\",\"name\":\"Chocolate Bar\",\"color\":\"cyanLight2\"},{\"id\":\"selc1smmUAuySCZnN\",\"name\":\"Graham Cracker\",\"color\":\"tealLight2\"},{\"id\":\"selsn1aplLyAIGJxq\",\"name\":\"Hero\",\"color\":\"purpleLight2\"},{\"id\":\"selzAfjISjfMu3cqJ\",\"name\":\"ShadowGuild\",\"color\":\"grayLight2\"},{\"id\":\"sel5K8uCeWKSYqsm4\",\"name\":\"Councelor\",\"color\":\"redLight2\"}]},\"id\":\"Type\",\"name\":\"Type\",\"description\":\"The type of character (Marshmallow, Ninja, NPC, etc.)\"},{\"type\":\"multilineText\",\"id\":\"Description\",\"name\":\"Description\",\"description\":\"Short description of the character for the game.\"},{\"type\":\"number\",\"options\":{\"precision\":0},\"id\":\"IntroducedAtLevel\",\"name\":\"IntroducedAtLevel\",\"description\":\"The number of the level which the character shows up.  For some games, all characters will be introduced right out of the gate.  This field is agnostic of the specific values   - and it can be left blank.\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblkrN2PBfUbbjTKS\",\"isReversed\":false,\"prefersSingleRecordLink\":true,\"inverseLinkFieldId\":\"Characters\"},\"id\":\"Game\",\"name\":\"Game\",\"description\":\"The game associated with this character.\"},{\"type\":\"multipleLookupValues\",\"options\":{\"isValid\":true,\"recordLinkFieldId\":\"Game\",\"fieldIdInLinkedTable\":\"IsActive\",\"result\":{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"}}},\"id\":\"GameIsActive\",\"name\":\"GameIsActive\",\"description\":\"A flag for whether the game associated with this character is active.\"}],\"views\":[{\"id\":\"viwFkiIKgJXkbgvdO\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viwcfOWZ2OlfLU9Om\",\"name\":\"Ninjas\",\"type\":\"grid\"},{\"id\":\"viwdaOpkGrspfjriB\",\"name\":\"Grid 3\",\"type\":\"grid\"}]},{\"id\":\"tblGU8XaJFxt8O7FQ\",\"name\":\"AppUsers\",\"description\":\"A list of users allowed to access games.\",\"primaryFieldId\":\"Name\",\"fields\":[{\"type\":\"singleLineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the app user.\"},{\"type\":\"multilineText\",\"id\":\"Notes\",\"name\":\"Notes\",\"description\":\"Notes about the app user.\"},{\"type\":\"singleLineText\",\"id\":\"EmailAddress\",\"name\":\"EmailAddress\",\"description\":\"The email address associated with the app user.\"},{\"type\":\"multipleSelects\",\"options\":{\"choices\":[{\"id\":\"sels43xWLdsjAbaBX\",\"name\":\"Admin\",\"color\":\"blueLight2\"},{\"id\":\"sel7i031nOOIvt6vW\",\"name\":\"Player\",\"color\":\"cyanLight2\"},{\"id\":\"selWWp6TFNJlg9b59\",\"name\":\"NPC\",\"color\":\"tealLight2\"},{\"id\":\"selsybfNC3AGBApcc\",\"name\":\"Guest\",\"color\":\"greenLight2\"}]},\"id\":\"Roles\",\"name\":\"Roles\",\"description\":\"Roles associated with the games.\"}],\"views\":[{\"id\":\"viwIS5OgIzJyzTULY\",\"name\":\"Grid view\",\"type\":\"grid\"}]},{\"id\":\"tblkrN2PBfUbbjTKS\",\"name\":\"Games\",\"description\":\"A list of games defined.\",\"primaryFieldId\":\"Name\",\"fields\":[{\"type\":\"singleLineText\",\"id\":\"Name\",\"name\":\"Name\",\"description\":\"Name of the character.\"},{\"type\":\"multipleAttachments\",\"options\":{\"isReversed\":false},\"id\":\"LoadingScreen\",\"name\":\"LoadingScreen\",\"description\":\"Loading screen image.\"},{\"type\":\"multilineText\",\"id\":\"Notes\",\"name\":\"Notes\",\"description\":\"Notes about the game\"},{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"},\"id\":\"IsActive\",\"name\":\"IsActive\",\"description\":\"A flag indicating if this game is the active game.\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tbl6hkyhAwWsoP9Wf\",\"isReversed\":false,\"prefersSingleRecordLink\":false,\"inverseLinkFieldId\":\"Game\"},\"id\":\"GameDetails\",\"name\":\"GameDetails\",\"description\":\"Links to the details about the game\"},{\"type\":\"multipleRecordLinks\",\"options\":{\"linkedTableId\":\"tblSeeEU9eaY8wMEV\",\"isReversed\":false,\"prefersSingleRecordLink\":false,\"inverseLinkFieldId\":\"Game\"},\"id\":\"Characters\",\"name\":\"Characters\",\"description\":\"A list of characters in the game.\"},{\"type\":\"checkbox\",\"options\":{\"icon\":\"check\",\"color\":\"greenBright\"},\"id\":\"IsDisabled\",\"name\":\"IsDisabled\",\"description\":\"Flag indicating if the game is disabled.\"}],\"views\":[{\"id\":\"viwoVMy9ba2aAvXFL\",\"name\":\"Grid view\",\"type\":\"grid\"},{\"id\":\"viwopmpNiULyqhKzb\",\"name\":\"Grid 2\",\"type\":\"grid\"}]}]}",
+          "SortOrder": "1",
+          "MatchingMetaData": null
+        }
+      ]
+    },
+    "MatchingMetaData": null
+  }
+}
+                    

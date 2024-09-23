@@ -1,0 +1,123 @@
+{
+  "Airtable": {
+    "GameDetails": [
+      {
+        "Value": "Roast and Toast - Summer Camp Fun",
+        "Name": "Game Name",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ"
+      },
+      {
+        "Value": 1.1,
+        "Name": "Version",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ"
+      },
+      {
+        "Value": "A whimsical, summery camp themed game about building the best s'mors ever. ",
+        "Name": "Theme",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ"
+      },
+      {
+        "Value": "Each level we are introduced to a new ingredient",
+        "Name": "Description",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ"
+      }
+    ],
+    "Characters": [
+      {
+        "Type": "Marshmallow",
+        "Description": "White and puffy, often burned. Leader of the gang.",
+        "IntroducedAtLevel": 1,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/8R67WXxIt3R_3SA7Qk-xXA/UYrp8IUakv7tVfZHXkZfG3-OsGRQga_4KzDQx7sHJV1fZItw_0XqZy8BrvzuGNllQ8u3Sx4wDOsaIJzz7CUp2lXyEx0c6gZcAbcWlBGwKD-2hWWyvWqyyQEucY1nbO1uTc1zU8ANUua3gF2uIpRtxr526K2GSHD8lUdrq9jcIKM/OCiN2vQcxheCXZARW2w0fahlWXMfkw6MzW2GXXWLg8s",
+        "Name": "Crispy",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
+      },
+      {
+        "Type": "Chocolate Bar",
+        "Description": "The tastiest chocolate bar ever. ",
+        "IntroducedAtLevel": 2,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/kyVPbTokPMLk78twMbAKnQ/PyTCe-At0pTfJyglSd8whfr2AC7wsH7uasDVyXfoHSLvxXKWBIGS-WTcbWXdB6bP3SpmyPGQ8_wu2hpJTstHgEzwZ6YtBVCN7ijaVlt5VAmp2pEJ4DEv2nQAhaLSZVs19_li8gscOqsZyIzpHRJv2g/tuJtd6TrSRgH6gbW6u0HEdDeryYhFLsOmYt8e6Oq6GQ",
+        "Name": "Melty",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
+      },
+      {
+        "Type": "Graham Cracker",
+        "Description": "Hangs around the S'mores gang.",
+        "IntroducedAtLevel": 3,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/1mWK4Nqz1Xz5wrH6HWuuvg/tJBqzBLXSzb8-lg0yryk3ilYYLe8wMOuUwkWkiTSRnNzhXygihkXauJZDbyJBMX6HWBu90eGPkhv-ZJ-DOPsGMqUOxTE6WRxu2-KFiSNz2BJj27BDZBc_Se50EFajqh9kNNWQJV9xhQ8EfWm2BXWQqzQK7pxtWDze_0eSD1GVMI/QSMiS7o8MgUUGPo-GeqXDk5nTP177lmdQ6PA-3rLAro",
+        "Name": "Crunchy",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "IsMissing": "True"
+      }
+    ],
+    "AppUsers": [
+      {
+        "Name": "Crispy",
+        "Roles": "NPC",
+        "EmailAddress": "crispy@ssot.me"
+      },
+      {
+        "Name": "ej",
+        "Roles": "Player",
+        "EmailAddress": "ej@ssot.me"
+      },
+      {
+        "Name": "admin",
+        "Roles": [
+          "Admin",
+          "Player"
+        ],
+        "EmailAddress": "admin@ssot.me"
+      }
+    ],
+    "Games": [
+      {
+        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ",
+        "IsActive": "True",
+        "Characters": [
+          "recP6nCPgC8kj0Efk",
+          "recbisIpgvy42u1Nc",
+          "rec6WwjrFY6Yap3Un"
+        ],
+        "GameDetails": [
+          "recgDsjR1BJ3UEYep",
+          "recC7PtuMLWc3377s",
+          "recyIbztUrw33ckoF",
+          "recBxJ9eKCl8JtTkk"
+        ],
+        "Notes": "A whimsical s'mors themed game, set at a summer camp",
+        "Name": "Roast and Toast"
+      },
+      {
+        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/pF3xOYnRjeWzyVQHWQyx4Q/ua-5hPAT5Q_2el--2ks0Jbt85x2qlTe41t1xjxSDZs8PWSkkbQnlKOnPSs1_eCBkoi0Ra3OKrfyz7Q4Fv5SJ8JU7V0DOtsp0e-sbLdtiYYSa5lebn4Qq1SnXTOOeR-yXb1W-58ShNx6J81YuBCrZcuWdwLpWi4HvLj3zpk9hM_g/39N3G93GPG2PYPf3y7crH9taTwBId2AlbOExhSbVgpU",
+        "Characters": [
+          "recXuCwnIdu4QQz1S",
+          "recmMqW73aKu6NtDT"
+        ],
+        "GameDetails": [
+          "rec70bA9IecAs5Z8f",
+          "recbCq2jyZBFDhd3I",
+          "recpnCvnPQbKMaXhL",
+          "receftbOcHvbfRkj9",
+          "recfpdYjG7BtrzYO7"
+        ],
+        "Notes": "A ninja themed high octane rooftop racing game",
+        "Name": "Rooftop Runners"
+      }
+    ]
+  }
+}

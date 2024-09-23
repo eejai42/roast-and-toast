@@ -1,0 +1,103 @@
+<Airtable xmlns:json="http://james.newtonking.com/projects/json">
+  <GameDetails json:Array="true">
+    <Value>Roast and Toast - Summer Camp Fun</Value>
+    <Name>Game Name</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>1.1</Value>
+    <Name>Version</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>A whimsical, summery camp themed game about building the best s'mors ever. </Value>
+    <Name>Theme</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>Each level we are introduced to a new ingredient</Value>
+    <Name>Description</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ</GameLoadingScreen>
+  </GameDetails>
+  <Characters json:Array="true">
+    <Type>Marshmallow</Type>
+    <Description>White and puffy, often burned. Leader of the gang.</Description>
+    <IntroducedAtLevel>1</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/8R67WXxIt3R_3SA7Qk-xXA/UYrp8IUakv7tVfZHXkZfG3-OsGRQga_4KzDQx7sHJV1fZItw_0XqZy8BrvzuGNllQ8u3Sx4wDOsaIJzz7CUp2lXyEx0c6gZcAbcWlBGwKD-2hWWyvWqyyQEucY1nbO1uTc1zU8ANUua3gF2uIpRtxr526K2GSHD8lUdrq9jcIKM/OCiN2vQcxheCXZARW2w0fahlWXMfkw6MzW2GXXWLg8s</Avatar>
+    <Name>Crispy</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <Characters json:Array="true">
+    <Type>Chocolate Bar</Type>
+    <Description>The tastiest chocolate bar ever. </Description>
+    <IntroducedAtLevel>2</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/kyVPbTokPMLk78twMbAKnQ/PyTCe-At0pTfJyglSd8whfr2AC7wsH7uasDVyXfoHSLvxXKWBIGS-WTcbWXdB6bP3SpmyPGQ8_wu2hpJTstHgEzwZ6YtBVCN7ijaVlt5VAmp2pEJ4DEv2nQAhaLSZVs19_li8gscOqsZyIzpHRJv2g/tuJtd6TrSRgH6gbW6u0HEdDeryYhFLsOmYt8e6Oq6GQ</Avatar>
+    <Name>Melty</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <Characters json:Array="true">
+    <Type>Graham Cracker</Type>
+    <Description>Hangs around the S'mores gang.</Description>
+    <IntroducedAtLevel>3</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/1mWK4Nqz1Xz5wrH6HWuuvg/tJBqzBLXSzb8-lg0yryk3ilYYLe8wMOuUwkWkiTSRnNzhXygihkXauJZDbyJBMX6HWBu90eGPkhv-ZJ-DOPsGMqUOxTE6WRxu2-KFiSNz2BJj27BDZBc_Se50EFajqh9kNNWQJV9xhQ8EfWm2BXWQqzQK7pxtWDze_0eSD1GVMI/QSMiS7o8MgUUGPo-GeqXDk5nTP177lmdQ6PA-3rLAro</Avatar>
+    <Name>Crunchy</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <IsMissing>True</IsMissing>
+  </Characters>
+  <AppUsers json:Array="true">
+    <Name>Crispy</Name>
+    <Roles>NPC</Roles>
+    <EmailAddress>crispy@ssot.me</EmailAddress>
+  </AppUsers>
+  <AppUsers json:Array="true">
+    <Name>ej</Name>
+    <Roles>Player</Roles>
+    <EmailAddress>ej@ssot.me</EmailAddress>
+  </AppUsers>
+  <AppUsers json:Array="true">
+    <Name>admin</Name>
+    <Roles json:Array="true">Admin</Roles>
+    <Roles json:Array="true">Player</Roles>
+    <EmailAddress>admin@ssot.me</EmailAddress>
+  </AppUsers>
+  <Games json:Array="true">
+    <LoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/zdAUEaKbAcmgiRUDz2TIwQ/jcZTM2lpnO7W62T8lq7QGUjYaHklM3rHWx6l5dbv56_jGadO5gO2hHPFDhVNCKsnmhesMG6H2MCIIK5qNi7YHKrTPaDA2YYrZ4opnM42vnpeQwD-TthPaeR7hJEmcNrnvutqu6pB9n8vI_S9UmwZZfSjh8yqBOoNurB06ix3IPRJ107ICsULMC06tnjCPI_F/IRZlrJoJqI7pt1I9YMXkxKxWtlXA6YzCkoA4x3S5FJQ</LoadingScreen>
+    <IsActive>True</IsActive>
+    <Characters json:Array="true">recP6nCPgC8kj0Efk</Characters>
+    <Characters json:Array="true">recbisIpgvy42u1Nc</Characters>
+    <Characters json:Array="true">rec6WwjrFY6Yap3Un</Characters>
+    <GameDetails json:Array="true">recgDsjR1BJ3UEYep</GameDetails>
+    <GameDetails json:Array="true">recC7PtuMLWc3377s</GameDetails>
+    <GameDetails json:Array="true">recyIbztUrw33ckoF</GameDetails>
+    <GameDetails json:Array="true">recBxJ9eKCl8JtTkk</GameDetails>
+    <Notes>A whimsical s'mors themed game, set at a summer camp</Notes>
+    <Name>Roast and Toast</Name>
+  </Games>
+  <Games json:Array="true">
+    <LoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1727136000000/pF3xOYnRjeWzyVQHWQyx4Q/ua-5hPAT5Q_2el--2ks0Jbt85x2qlTe41t1xjxSDZs8PWSkkbQnlKOnPSs1_eCBkoi0Ra3OKrfyz7Q4Fv5SJ8JU7V0DOtsp0e-sbLdtiYYSa5lebn4Qq1SnXTOOeR-yXb1W-58ShNx6J81YuBCrZcuWdwLpWi4HvLj3zpk9hM_g/39N3G93GPG2PYPf3y7crH9taTwBId2AlbOExhSbVgpU</LoadingScreen>
+    <Characters json:Array="true">recXuCwnIdu4QQz1S</Characters>
+    <Characters json:Array="true">recmMqW73aKu6NtDT</Characters>
+    <GameDetails json:Array="true">rec70bA9IecAs5Z8f</GameDetails>
+    <GameDetails json:Array="true">recbCq2jyZBFDhd3I</GameDetails>
+    <GameDetails json:Array="true">recpnCvnPQbKMaXhL</GameDetails>
+    <GameDetails json:Array="true">receftbOcHvbfRkj9</GameDetails>
+    <GameDetails json:Array="true">recfpdYjG7BtrzYO7</GameDetails>
+    <Notes>A ninja themed high octane rooftop racing game</Notes>
+    <Name>Rooftop Runners</Name>
+  </Games>
+</Airtable>

@@ -1,0 +1,44 @@
+{
+  "replacements": [
+    {
+      "key": "base-id",
+      "value": "appmrdAZppf3BM8LL"
+    },
+    {
+      "key": "project-name",
+      "value": "roast_and_toast_game_info.xlsx"
+    },
+    {
+      "key": "project-name-title",
+      "value": "Roast_and_Toast_Game_Info.xlsx"
+    },
+    {
+      "key": "view",
+      "value": "Grid%20view"
+    },
+    {
+      "key": "user-table-name",
+      "value": "AppUser"
+    },
+    {
+      "key": "users-table-name",
+      "value": "AppUsers"
+    },
+    {
+      "key": "email-address-field",
+      "value": "EmailAddress"
+    },
+    {
+      "key": "roles-field",
+      "value": "Roles"
+    },
+    {
+      "key": "roles",
+      "value": "Admin,Player,NPC,Guest"
+    },
+    {
+      "key": "user-role-name",
+      "value": "Player"
+    }
+  ]
+}
