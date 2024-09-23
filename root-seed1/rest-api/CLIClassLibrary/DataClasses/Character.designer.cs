@@ -52,6 +52,9 @@ namespace AirtableDirect.CLI.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Description")]
         public String Description { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "IsMissing")]
+        public Nullable<Boolean> IsMissing { get; set; }
+    
         /// <summary>
         /// The number of the level which the character shows up. For some games, all characters will be introduced right out of the gate. This field is agnostic of the specific values - and it can be left blank.
         /// </summary>

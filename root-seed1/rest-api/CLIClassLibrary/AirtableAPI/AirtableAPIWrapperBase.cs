@@ -392,8 +392,6 @@ namespace SSoT.me.AirtableToDotNetLib
             return this.XmlDocs[singularName];
         }
 
-
-
         private string CleanXML(string airtableXml)
         {
             var xDoc = XDocument.Parse(airtableXml);

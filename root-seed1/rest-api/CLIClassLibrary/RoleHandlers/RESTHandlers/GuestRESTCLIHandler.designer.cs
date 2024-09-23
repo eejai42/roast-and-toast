@@ -276,6 +276,7 @@ namespace CLIClassLibrary.RoleHandlers.RESTHandlers
                     sb.AppendLine($"R      - Avatar");
                     sb.AppendLine($"R      - Type");
                     sb.AppendLine($"R      - Description");
+                    sb.AppendLine($"R      - IsMissing");
                     sb.AppendLine($"R      - IntroducedAtLevel");
                     sb.AppendLine($"R      - Game");
                     sb.AppendLine($"R      - GameIsActive");

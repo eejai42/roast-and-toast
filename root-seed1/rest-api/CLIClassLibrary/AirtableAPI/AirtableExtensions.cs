@@ -19,7 +19,6 @@ using System.Xml;
 using System.ComponentModel;
 using Newtonsoft.Json.Linq;
 using AirtableDirect.CLI.Lib.DataClasses;
-using System.Xml.Linq;
 
 namespace SSoT.me.AirtableToDotNetLib
 {
@@ -53,8 +52,8 @@ namespace SSoT.me.AirtableToDotNetLib
             }
             return destItems;
         }
-
-
+        
+        
         
         public static XmlDocument SimplifyAttachments(this XmlDocument originalXmlDoc)
         {
@@ -92,57 +91,7 @@ namespace SSoT.me.AirtableToDotNetLib
 
         }
 
-        private static XmlNode SimplifyNode(XmlNode node, XmlDocument simplifiedXmlDoc)
-        {
-            var simplifiedElement = simplifiedXmlDoc.CreateElement(node.Name);
-
-            foreach (XmlNode childNode in node.ChildNodes)
-            {
-                // If the node is a scalar value (text node), directly copy it.
-                if (childNode.ChildNodes.Count == 1 && childNode.FirstChild.NodeType == XmlNodeType.Text)
-                {
-                    var newNode = simplifiedXmlDoc.CreateElement(childNode.Name);
-                    newNode.InnerText = childNode.InnerText;
-                    simplifiedElement.AppendChild(newNode);
-                }
-                // If the node contains a 'url' child, it is an attachment; replace it with the URL content.
-                else if (childNode.SelectSingleNode(".//url") != null)
-                {
-                    var urlNode = childNode.SelectSingleNode(".//url");
-                    var newNode = simplifiedXmlDoc.CreateElement(childNode.Name);
-                    newNode.InnerText = urlNode.InnerText;
-                    simplifiedElement.AppendChild(newNode);
-                }
-                // For arrays or simple collections of scalar items, we check if all children are text nodes.
-                else if (childNode.ChildNodes.Count > 0 && AllChildrenAreText(childNode))
-                {
-                    var arrayNode = simplifiedXmlDoc.CreateElement(childNode.Name);
-                    foreach (XmlNode item in childNode.ChildNodes)
-                    {
-                        var itemNode = simplifiedXmlDoc.CreateElement(item.Name);
-                        itemNode.InnerText = item.InnerText;
-                        arrayNode.AppendChild(itemNode);
-                    }
-                    simplifiedElement.AppendChild(arrayNode);
-                }
-                // Non-scalar complex objects are ignored.
-            }
-
-            return simplifiedElement.ChildNodes.Count > 0 ? simplifiedElement : null;
-        }
-
-        private static bool AllChildrenAreText(XmlNode node)
-        {
-            foreach (XmlNode child in node.ChildNodes)
-            {
-                if (child.ChildNodes.Count != 1 || child.FirstChild.NodeType != XmlNodeType.Text)
-                    return false;
-            }
-            return true;
-        }
-    
-
-    public abstract class MyConverter<T> : JsonConverter
+        public abstract class MyConverter<T> : JsonConverter
         {
             public bool IsRemoteCollection(string fieldName)
             {

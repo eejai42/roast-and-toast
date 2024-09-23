@@ -66,6 +66,7 @@ namespace CLIClassLibrary.ATDMQ
                     Avatar = cleanCharacter.Avatar,
                     Type = cleanCharacter.Type,
                     Description = cleanCharacter.Description,
+                    IsMissing = cleanCharacter.IsMissing,
                     IntroducedAtLevel = cleanCharacter.IntroducedAtLevel,
                     Game = cleanCharacter.Game,
                     GameIsActive = cleanCharacter.GameIsActive
