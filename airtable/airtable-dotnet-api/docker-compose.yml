@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  aspnet-rest-api:
+    image: ${DOCKER_REGISTRY-}roast_and_toast_game_info.xlsx
+    build:
+      context: .
+      dockerfile: ASPNet-REST-API/Dockerfile
+    ports:
+      - "32768:42123"
