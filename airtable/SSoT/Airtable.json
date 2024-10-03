@@ -2,66 +2,63 @@
   "Airtable": {
     "GameDetails": [
       {
-        "Value": "Roast and Toast - Summer Camp Fun",
+        "Value": "Rooftop Runners",
         "Name": "Game Name",
-        "Game": "recqo91jKx4dH0puE",
+        "Game": "recAW1ajHxto0oGcM",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/P2CmnUOe03RJ5X4zQ5cIAg/KjfOvCiVlrW4kPA0rjXSFGbm_IthIhXHRTG4uScedktVHiLgRoTzDdqGjthfsl7Runagx7RA-1les2ZepamXbpuor6ZnR8IfFnke7NmbnOFqZGvx3J1CYO6DzBuQq6PRghVpFde4qj7qW08sD3BFNyPGnQddpfjjIUBy1FVubZGIQDGHA8u0VD1AFlGNkoJX/cLKy4JBsmpQTHUOObgurjPhiDCgHeH5CxjjwBpRSaT0"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/alcHt2pAtyNafR5uyENbXQ/wXz8DE67-4mGHkXmAb703YER-Cm0X5RMVlMvnjDqgeLVdzXc2WgAQ_Kb7ZnRDzwyTp0SAwYdUugWqqvoeTrv0uflplVHG8xNcpf5l_mz22jV3CZN0hUvMLtlYeGIvzfUs4pwwsXJS5K-MKDSB0nZVyzJQmOkPvz_FlQIbiRo_rY/YLFIuEf46SvkmfU-LOIqGpq-pxoX1dCCd4qqGzHe170"
       },
       {
-        "Value": 1.1,
-        "Name": "Version",
-        "Game": "recqo91jKx4dH0puE",
-        "GameIsActive": "True",
-        "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/P2CmnUOe03RJ5X4zQ5cIAg/KjfOvCiVlrW4kPA0rjXSFGbm_IthIhXHRTG4uScedktVHiLgRoTzDdqGjthfsl7Runagx7RA-1les2ZepamXbpuor6ZnR8IfFnke7NmbnOFqZGvx3J1CYO6DzBuQq6PRghVpFde4qj7qW08sD3BFNyPGnQddpfjjIUBy1FVubZGIQDGHA8u0VD1AFlGNkoJX/cLKy4JBsmpQTHUOObgurjPhiDCgHeH5CxjjwBpRSaT0"
-      },
-      {
-        "Value": "A whimsical, summery camp themed game about building the best s'mors ever. ",
+        "Value": "Maze Running",
         "Name": "Theme",
-        "Game": "recqo91jKx4dH0puE",
+        "Game": "recAW1ajHxto0oGcM",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/P2CmnUOe03RJ5X4zQ5cIAg/KjfOvCiVlrW4kPA0rjXSFGbm_IthIhXHRTG4uScedktVHiLgRoTzDdqGjthfsl7Runagx7RA-1les2ZepamXbpuor6ZnR8IfFnke7NmbnOFqZGvx3J1CYO6DzBuQq6PRghVpFde4qj7qW08sD3BFNyPGnQddpfjjIUBy1FVubZGIQDGHA8u0VD1AFlGNkoJX/cLKy4JBsmpQTHUOObgurjPhiDCgHeH5CxjjwBpRSaT0"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/alcHt2pAtyNafR5uyENbXQ/wXz8DE67-4mGHkXmAb703YER-Cm0X5RMVlMvnjDqgeLVdzXc2WgAQ_Kb7ZnRDzwyTp0SAwYdUugWqqvoeTrv0uflplVHG8xNcpf5l_mz22jV3CZN0hUvMLtlYeGIvzfUs4pwwsXJS5K-MKDSB0nZVyzJQmOkPvz_FlQIbiRo_rY/YLFIuEf46SvkmfU-LOIqGpq-pxoX1dCCd4qqGzHe170"
       },
       {
-        "Value": "Each level we are introduced to a new ingredient, as the S'mors gang tries to find their missing friends (melty and crunch), in order to make the perfect s'mors.",
-        "Name": "Description",
-        "Game": "recqo91jKx4dH0puE",
+        "Value": 6.8,
+        "Name": "Version",
+        "Game": "recAW1ajHxto0oGcM",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/P2CmnUOe03RJ5X4zQ5cIAg/KjfOvCiVlrW4kPA0rjXSFGbm_IthIhXHRTG4uScedktVHiLgRoTzDdqGjthfsl7Runagx7RA-1les2ZepamXbpuor6ZnR8IfFnke7NmbnOFqZGvx3J1CYO6DzBuQq6PRghVpFde4qj7qW08sD3BFNyPGnQddpfjjIUBy1FVubZGIQDGHA8u0VD1AFlGNkoJX/cLKy4JBsmpQTHUOObgurjPhiDCgHeH5CxjjwBpRSaT0"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/alcHt2pAtyNafR5uyENbXQ/wXz8DE67-4mGHkXmAb703YER-Cm0X5RMVlMvnjDqgeLVdzXc2WgAQ_Kb7ZnRDzwyTp0SAwYdUugWqqvoeTrv0uflplVHG8xNcpf5l_mz22jV3CZN0hUvMLtlYeGIvzfUs4pwwsXJS5K-MKDSB0nZVyzJQmOkPvz_FlQIbiRo_rY/YLFIuEf46SvkmfU-LOIqGpq-pxoX1dCCd4qqGzHe170"
+      },
+      {
+        "Value": "Dive into a heart-pounding, ninja-inspired parkour adventure with \"Rooftop Runners.\" Navigate through a labyrinth of doors, roofs, and alleyways atop the densely populated cityscape. As Silent Tempest, you must outmaneuver and outpace the menacing Shadow Guild to reach your family before they do, preventing a tragic fate. Every leap and dash brings you closer to saving your loved ones or facing devastating loss.",
+        "Name": "Description",
+        "Game": "recAW1ajHxto0oGcM",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/alcHt2pAtyNafR5uyENbXQ/wXz8DE67-4mGHkXmAb703YER-Cm0X5RMVlMvnjDqgeLVdzXc2WgAQ_Kb7ZnRDzwyTp0SAwYdUugWqqvoeTrv0uflplVHG8xNcpf5l_mz22jV3CZN0hUvMLtlYeGIvzfUs4pwwsXJS5K-MKDSB0nZVyzJQmOkPvz_FlQIbiRo_rY/YLFIuEf46SvkmfU-LOIqGpq-pxoX1dCCd4qqGzHe170"
+      },
+      {
+        "Value": "The gang of rogue ninjas trying to kill you and your family called the Shadow Guild.",
+        "Name": "Enemies",
+        "Game": "recAW1ajHxto0oGcM",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/alcHt2pAtyNafR5uyENbXQ/wXz8DE67-4mGHkXmAb703YER-Cm0X5RMVlMvnjDqgeLVdzXc2WgAQ_Kb7ZnRDzwyTp0SAwYdUugWqqvoeTrv0uflplVHG8xNcpf5l_mz22jV3CZN0hUvMLtlYeGIvzfUs4pwwsXJS5K-MKDSB0nZVyzJQmOkPvz_FlQIbiRo_rY/YLFIuEf46SvkmfU-LOIqGpq-pxoX1dCCd4qqGzHe170"
       }
     ],
     "Characters": [
       {
-        "Type": "Marshmallow",
-        "Description": "White and puffy, often burned. Leader of the gang.",
+        "Type": "Hero",
+        "Description": "Silent Tempest: The game's protagonist, racing against time to save his family from the ruthless Shadow Guild, who threaten to eliminate them as a brutal reprisal.",
         "IntroducedAtLevel": 1,
-        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/_bY1OOBFSXQzf9g0pPr70A/umXfM56gO-xSKFNBpWAJiOyAzBU1aRqENjSn8YYkR49t_PTJobz0K95WLCzta7bEHbBpmf61CrHSCNwwJ2purqEvo4zOkOJ8VFXJDpPrZZ9lXxY4nRlhD-2fvLtT9wzro83xTXHrSrxUWl8gdkdhNcXVVz0GvjJLUhak_MEGPkg/DNDxXYmXfJSADzbuMuIrogN-vmcF7Ro8zB5vIXSOEQo",
-        "Name": "Charlie",
-        "Game": "recqo91jKx4dH0puE",
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/zQeQM5HS-mIGe3dH3nfcCg/6vMytJA0h86lhqbyP42brqfQCS4LPdZYWenjXt0-tULp98MQi2ZyebTm8B9EvBg1L9t-kx-Wp76R30CC-r98h3vmRENvHQFZfeprwpVLbJDtJEHxzj9BQiUILFeyngMqjGNZrM2ZLM2ZfKCdm9DKThJI0CuTPMhw8khRjiuzXUM/rDLBcgaTmRu1hnnWiKkWIZVZ8TrhpY1PwNJqStOE3ws",
+        "Name": "Silent Tempest",
+        "Game": "recAW1ajHxto0oGcM",
         "GameIsActive": "True"
       },
       {
-        "IsMissing": "True",
-        "Type": "Chocolate Bar",
-        "Description": "The tastiest chocolate bar ever. ",
-        "IntroducedAtLevel": 2,
-        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/BYOjty6fhOD87QBdG3sO-g/0NTult6yp9SJaV0Ha2YtE-KZyma23HH5VwLwSjDh7Z953MhJZxDeaiqNx6XuFuLaJrxTyh5UhnXbTjEvb5_-Z-Zp07I7owBTs3qd_wBn1i84DjdD8tKy7a_2KjZIJ7dijlGVcEHwXzDwuWMWk3mmdA/FAbKQjOPRHcIjidCnuWGeHPsD11UixGXQ3dbWzLVo5A",
-        "Name": "Melty",
-        "Game": "recqo91jKx4dH0puE",
-        "GameIsActive": "True"
-      },
-      {
-        "IsMissing": "True",
-        "Type": "Graham Cracker",
-        "Description": "Hangs around the S'mores gang.",
-        "IntroducedAtLevel": 3,
-        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/40d4qJ3SwnXcHLIHNursYg/_2a5k0CUKb0shA6OOp8WQjo-JcFGVa1aY6nUnO9mVvYLrN-tvqV_75jR3HrNFRqU8LEHHON8fjxkIUzNYlyylwRWP1lByieAKZ-PUTJCDYhePs6pA5S-rX-2dULPAxudjktzaUjM-ijbsrDv2yW_6mNaiIkdQCMLWqjtxRUTH7o/4WUyqzIybTlG_MmHQJxiExTpNFPSsBZJ12w55cibqYo",
-        "Name": "Crunchy",
-        "Game": "recqo91jKx4dH0puE",
+        "Type": "ShadowGuild",
+        "Description": "The Shadow Guild Leader: Commanding the notorious rogue gang, this leader has decreed a deadly punishment for Silent Tempest's family, enforcing their grim law with iron resolve.",
+        "IntroducedAtLevel": 1,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/DkUkBjwFG-jGh6NUlt6c5Q/miNpHWWA_f8KL4VUhJIe7fOk6O_ffSRY9RTU7hRYH5qFhZn2vr7pxmdDVEeuN1Vu5iSxVC7Y4Ai4JyB-axdHQshNDpLfC-l-iNJWtz4a8v2wdybjHnFvn006sl3tIVt_FLYgYICf6rcBgoERRsS-fw/rIN7TJHzdR_0zE5Fo7VPnD1FCcHmnHIjwiVU7ovTCCs",
+        "Name": "Iron Shadow",
+        "Game": "recAW1ajHxto0oGcM",
         "GameIsActive": "True"
       }
     ],
@@ -88,7 +85,6 @@
     "Games": [
       {
         "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1727992800000/P2CmnUOe03RJ5X4zQ5cIAg/KjfOvCiVlrW4kPA0rjXSFGbm_IthIhXHRTG4uScedktVHiLgRoTzDdqGjthfsl7Runagx7RA-1les2ZepamXbpuor6ZnR8IfFnke7NmbnOFqZGvx3J1CYO6DzBuQq6PRghVpFde4qj7qW08sD3BFNyPGnQddpfjjIUBy1FVubZGIQDGHA8u0VD1AFlGNkoJX/cLKy4JBsmpQTHUOObgurjPhiDCgHeH5CxjjwBpRSaT0",
-        "IsActive": "True",
         "Characters": [
           "recP6nCPgC8kj0Efk",
           "recbisIpgvy42u1Nc",
@@ -117,7 +113,51 @@
           "recfpdYjG7BtrzYO7"
         ],
         "Notes": "A ninja themed high octane rooftop racing game",
-        "Name": "Rooftop Runners"
+        "Name": "Rooftop Runners",
+        "IsActive": "True"
+      }
+    ],
+    "Weapons": [
+      {
+        "Name": "Katana",
+        "Description": "A traditional Japanese sword known for its sharpness and strength, used by samurai and ninjas.",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/katana.png"
+      },
+      {
+        "Name": "Nunchaku",
+        "Description": "A martial arts weapon consisting of two sticks connected by a short chain or rope, used for striking and entangling.",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/nunchaku.png"
+      },
+      {
+        "Name": "Shuriken",
+        "Description": "A star-shaped throwing weapon that ninjas used for distraction and at a distance to harm enemies.",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/shaken.png"
+      }
+    ],
+    "Levels": [
+      {
+        "Name": "Skybound",
+        "Description": "High above the bustling metropolis, combatants leap between the rooftops of towering skyscrapers. Each rooftop presents its own challenges and opportunities for tactical advantage.",
+        "LevelNumber": 1,
+        "Location": "Rooftop",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/skybound.png",
+        "GoogleKey": "1ydQbxC2yyHlFfpcNYEK4n7WrRITyIVnb"
+      },
+      {
+        "Name": "The Depths",
+        "Description": "Deep beneath the earth, the air is thick and heavy. Echoes of past skirmishes reverberate off the cold, damp stone walls. The labyrinthine tunnels twist and turn, hiding dangers and treasures alike.",
+        "LevelNumber": 2,
+        "Location": "Underground",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/underground.png",
+        "GoogleKey": "1OYsOoojlBToCdrTFbeaAwrVod1KOz2Vo"
+      },
+      {
+        "Name": "Rail Rush",
+        "Description": "Speed is the name of the game as fighters find themselves atop a swiftly moving city train. Every moment is a test of reflexes.",
+        "LevelNumber": 3,
+        "Location": "Train",
+        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/train.png",
+        "GoogleKey": "14viKK9_QAxCJ4MAlqi2Zha-uv7TAIVdX"
       }
     ]
   }

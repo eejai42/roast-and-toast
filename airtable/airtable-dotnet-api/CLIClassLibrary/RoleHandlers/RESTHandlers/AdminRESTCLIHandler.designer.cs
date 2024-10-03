@@ -40,7 +40,15 @@ namespace CLIClassLibrary.RoleHandlers.RESTHandlers
                 sb.AppendLine($"Game: GetGames");
                 sb.AppendLine($"Game: AddGame");
                 sb.AppendLine($"Game: UpdateGame");
-                sb.AppendLine($"void: DeleteGame");                                            
+                sb.AppendLine($"void: DeleteGame");
+                sb.AppendLine($"Weapon: GetWeapons");
+                sb.AppendLine($"Weapon: AddWeapon");
+                sb.AppendLine($"Weapon: UpdateWeapon");
+                sb.AppendLine($"void: DeleteWeapon");
+                sb.AppendLine($"Level: GetLevels");
+                sb.AppendLine($"Level: AddLevel");
+                sb.AppendLine($"Level: UpdateLevel");
+                sb.AppendLine($"void: DeleteLevel");                                            
             }
             
             sb.AppendLine($"{Environment.NewLine}Available Actions Matching: {helpTerm}");
@@ -189,6 +197,78 @@ namespace CLIClassLibrary.RoleHandlers.RESTHandlers
                 }
                 found = true;
             }
+            if ("getweapons".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetWeapons");
+                if ("getweapons".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetWeaponsHelp(sb);
+                }
+                found = true;
+            }
+            if ("addweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - AddWeapon");
+                if ("addweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintAddWeaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("updateweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - UpdateWeapon");
+                if ("updateweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintUpdateWeaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("deleteweapon".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - DeleteWeapon");
+                if ("deleteweapon".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintDeleteWeaponHelp(sb);
+                }
+                found = true;
+            }
+            if ("getlevels".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - GetLevels");
+                if ("getlevels".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintGetLevelsHelp(sb);
+                }
+                found = true;
+            }
+            if ("addlevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - AddLevel");
+                if ("addlevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintAddLevelHelp(sb);
+                }
+                found = true;
+            }
+            if ("updatelevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - UpdateLevel");
+                if ("updatelevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintUpdateLevelHelp(sb);
+                }
+                found = true;
+            }
+            if ("deletelevel".Contains(helpTerm, StringComparison.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($" - DeleteLevel");
+                if ("deletelevel".Equals(helpTerm, StringComparison.OrdinalIgnoreCase)) 
+                {
+                    this.PrintDeleteLevelHelp(sb);
+                }
+                found = true;
+            }
                        
             if (!found)
             {
@@ -326,6 +406,66 @@ namespace CLIClassLibrary.RoleHandlers.RESTHandlers
                 
                 
                 case "deletegame":
+                    break;
+
+                    
+                
+                
+                case "getweapons":
+                    // Weapon
+                    result = await this.GETRequest("Weapons", payload);
+                    break;
+
+                    
+                
+                
+                case "addweapon":
+                    // Weapon
+                    result = await this.GETRequest("Weapons", payload);
+                    break;
+
+                    
+                
+                
+                case "updateweapon":
+                    // Weapon
+                    result = await this.GETRequest("Weapons", payload);
+                    break;
+
+                    
+                
+                
+                case "deleteweapon":
+                    break;
+
+                    
+                
+                
+                case "getlevels":
+                    // Level
+                    result = await this.GETRequest("Levels", payload);
+                    break;
+
+                    
+                
+                
+                case "addlevel":
+                    // Level
+                    result = await this.GETRequest("Levels", payload);
+                    break;
+
+                    
+                
+                
+                case "updatelevel":
+                    // Level
+                    result = await this.GETRequest("Levels", payload);
+                    break;
+
+                    
+                
+                
+                case "deletelevel":
                     break;
 
                     
@@ -634,6 +774,133 @@ namespace CLIClassLibrary.RoleHandlers.RESTHandlers
         }
         
         public void PrintDeleteGameHelp(StringBuilder sb)
+        {
+            
+        }
+        
+        public void PrintGetWeaponsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Weapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - WeaponId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                
+            
+        }
+        
+        public void PrintAddWeaponHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Weapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - WeaponId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                
+            
+        }
+        
+        public void PrintUpdateWeaponHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Weapon     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - WeaponId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                
+            
+        }
+        
+        public void PrintDeleteWeaponHelp(StringBuilder sb)
+        {
+            
+        }
+        
+        public void PrintGetLevelsHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - LevelId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - LevelNumber");
+                    sb.AppendLine($"CRUD      - Location");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                    sb.AppendLine($"CRUD      - GoogleKey");
+                
+            
+        }
+        
+        public void PrintAddLevelHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - LevelId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - LevelNumber");
+                    sb.AppendLine($"CRUD      - Location");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                    sb.AppendLine($"CRUD      - GoogleKey");
+                
+            
+        }
+        
+        public void PrintUpdateLevelHelp(StringBuilder sb)
+        {
+            
+                
+                sb.AppendLine();
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine($"* *  OBJECT DEF: Level     *");
+                sb.AppendLine($"* * * * * * * * * * * * * * * * * * * * * * * * * * *");
+                sb.AppendLine();
+                
+                    sb.AppendLine($"CRUD      - LevelId");
+                    sb.AppendLine($"CRUD      - Name");
+                    sb.AppendLine($"CRUD      - Description");
+                    sb.AppendLine($"CRUD      - LevelNumber");
+                    sb.AppendLine($"CRUD      - Location");
+                    sb.AppendLine($"CRUD      - ImageURL");
+                    sb.AppendLine($"CRUD      - GoogleKey");
+                
+            
+        }
+        
+        public void PrintDeleteLevelHelp(StringBuilder sb)
         {
             
         }
