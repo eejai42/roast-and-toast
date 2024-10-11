@@ -1,0 +1,173 @@
+<Airtable xmlns:json="http://james.newtonking.com/projects/json">
+  <Games json:Array="true">
+    <LoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</LoadingScreen>
+    <IsActive>True</IsActive>
+    <Characters json:Array="true">recP6nCPgC8kj0Efk</Characters>
+    <Characters json:Array="true">recbisIpgvy42u1Nc</Characters>
+    <Characters json:Array="true">rec6WwjrFY6Yap3Un</Characters>
+    <Characters json:Array="true">recuWYVHPRWQYugOV</Characters>
+    <GameDetails json:Array="true">recgDsjR1BJ3UEYep</GameDetails>
+    <GameDetails json:Array="true">recC7PtuMLWc3377s</GameDetails>
+    <GameDetails json:Array="true">recyIbztUrw33ckoF</GameDetails>
+    <GameDetails json:Array="true">recBxJ9eKCl8JtTkk</GameDetails>
+    <GameDetails json:Array="true">reckcaliwbwOFb1P8</GameDetails>
+    <GameDetails json:Array="true">recy3jSUb0j8gBb1N</GameDetails>
+    <GameDetails json:Array="true">recf0eEluNzjyHL65</GameDetails>
+    <GameDetails json:Array="true">recmlfQxgkvOBmVxp</GameDetails>
+    <GameDetails json:Array="true">recFZm8iol2eMhd6R</GameDetails>
+    <Notes>A whimsical s'mors themed game, set at a summer camp</Notes>
+    <Name>Roast and Toast</Name>
+  </Games>
+  <Games json:Array="true">
+    <LoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo</LoadingScreen>
+    <Characters json:Array="true">recXuCwnIdu4QQz1S</Characters>
+    <Characters json:Array="true">recmMqW73aKu6NtDT</Characters>
+    <GameDetails json:Array="true">rec70bA9IecAs5Z8f</GameDetails>
+    <GameDetails json:Array="true">recbCq2jyZBFDhd3I</GameDetails>
+    <GameDetails json:Array="true">recpnCvnPQbKMaXhL</GameDetails>
+    <GameDetails json:Array="true">receftbOcHvbfRkj9</GameDetails>
+    <GameDetails json:Array="true">recfpdYjG7BtrzYO7</GameDetails>
+    <Notes>A ninja themed high octane rooftop racing game</Notes>
+    <Name>Rooftop Runners</Name>
+  </Games>
+  <GameDetails json:Array="true">
+    <Value>Roast and Toast</Value>
+    <Name>Game Title</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>2.2</Value>
+    <Name>Version</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>S’mores, Summer Camp</Value>
+    <Name>Theme</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>Team-based platformer with puzzle-solving elements</Value>
+    <Name>Gameplay Type</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>Single-player, Multiplayer</Value>
+    <Name>Game Modes</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>Help Charlie find the S'mors Gang, Crispy, Melty, and Crunchy and then to reach the campfire to make the perfect s'mors while avoiding obstacles</Value>
+    <Name>Objective</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>- Puzzle solving and platforming challenges
+- Unique character abilities
+- Unlockable campfire accessories and ingredients
+- Collectible upgrades for the S'mores gang</Value>
+    <Name>Key Features</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>- Move: Arrow keys/Joystick
+- Jump: Spacebar
+- Special Abilities: Number keys 1-3</Value>
+    <Name>Controls</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <GameDetails json:Array="true">
+    <Value>New characters, levels, and expanded storyline in future updates</Value>
+    <Name>Coming Soon</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+    <GameIsDisabled></GameIsDisabled>
+    <GameLoadingScreen>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw</GameLoadingScreen>
+  </GameDetails>
+  <Characters json:Array="true">
+    <Skills>Boost: Gives the team a speed boost or powers up their abilities for a limited time.</Skills>
+    <sd>Charlie</sd>
+    <Type>Camper</Type>
+    <Description>The camper working with the gang to make the perfect S'mors for all the campers.</Description>
+    <IntroducedAtLevel>1</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/PJnz23h-E5GYMVY5i4c99w/A-m3ovsxtKgv9aEwM-edNXVPzP_NRiwi5SzrdJwrPiSeaS58XO-2uk8DYr6r-jbVGWsd1-rx_bLEYQ0r7cdUZxxjrQqmo-_0Jm_dHjv8SeyQFWeJxu2jnpCeyXnqfUL1AUTufICieE88dIPkCrHeDg/oGC-G4V_JT1j7mB6mS7WRPgZMfNCkzXFFBHHj5nKQ2o</Avatar>
+    <Name>Charlie</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <Characters json:Array="true">
+    <Skills>Bounce: Jumps higher than the others, perfect for reaching high platforms.</Skills>
+    <sd>Crispy</sd>
+    <IsMissing>True</IsMissing>
+    <Type>Marshmallow</Type>
+    <Description>A small, white, puffy marshmallow, always ready for fun but needs to avoid getting roasted!</Description>
+    <IntroducedAtLevel>2</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/DCF727FPxFQrU6Vgd_DW2g/_DXD7F073GZWXk1uuvfwFupRo0g2ECZrzb328hs82u34fQ9QmSLuApD72T6MBfhPFTOTbwxpvpm_Wh8cbArP4RoGkl5GHPBTTSRJKDuc3tE5F_i7J2922GFCKVCjEHZGAtnasXXJtVUB5_gdNDWGgsB18VDIuYWEBbNJfdbjzbw/HhKAhBp2d4p0G3oDOZEncdwFlyGwAgr4oBHXjxTXcaQ</Avatar>
+    <Name>Charlie</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <Characters json:Array="true">
+    <Skills>Slide: Melty can slip under tight spaces that others can't.</Skills>
+    <sd>Melty</sd>
+    <IsMissing>True</IsMissing>
+    <Type>Chocolate Bar</Type>
+    <Description>The smooth chocolate with a cool personality, but melts easily under pressure!</Description>
+    <IntroducedAtLevel>3</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/8yYuNZcvphSQb636ewimJg/2keo8iKFJiIPFXsOEFTxOhS7X0XjWs6rcNHYqizv18cmRPtjc6PD4cG8O1UQJS0JHRQfijeMJsLyThbaNK-_tLx3uotNSaGhTNBMP8xDHyBkWFkQoMECT878FAipaLBKynLY7g3wd0Um3WWMPogkUQ/MYwNeRcWF-A6klijHiffL31oVj6iFvOE8T2MfMl4zVk</Avatar>
+    <Name>Melty</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <Characters json:Array="true">
+    <Skills>Shield: Temporarily protects the team from flames and falling objects.</Skills>
+    <sd>Crunchy</sd>
+    <IsMissing>True</IsMissing>
+    <Type>Graham Cracker</Type>
+    <Description>The reliable, sturdy graham cracker who helps keep the S’more together—but be careful, he can crumble!</Description>
+    <IntroducedAtLevel>4</IntroducedAtLevel>
+    <Avatar>https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/Q2tESyfiae8m0_kLfO1RuQ/80ft_jrIoeqBcZp7bHTr0EFYnGjnFmXbobMgAyOA6cP3NG3Z3WabJKQTVVD1x6jbI31mc5wrAK4Pbheyz2kXtntQ94E4n9gghOt5y4XUhc02Na5Ujd_H9QuDrx_QDovknMuiPUGGIv3pFxoGLqoagt67OlLyaXzcG2vcW-h7QEU/ub3-nIj_hkTJP5mwQmqeJrny6SqMZVMCl3RDQff-G0U</Avatar>
+    <Name>Crunchy</Name>
+    <Game>recqo91jKx4dH0puE</Game>
+    <GameIsActive>True</GameIsActive>
+  </Characters>
+  <AppUsers json:Array="true">
+    <Name>Crispy</Name>
+    <Roles>NPC</Roles>
+    <EmailAddress>crispy@ssot.me</EmailAddress>
+  </AppUsers>
+  <AppUsers json:Array="true">
+    <Name>ej</Name>
+    <Roles>Player</Roles>
+    <EmailAddress>ej@ssot.me</EmailAddress>
+  </AppUsers>
+  <AppUsers json:Array="true">
+    <Name>admin</Name>
+    <Roles json:Array="true">Admin</Roles>
+    <Roles json:Array="true">Player</Roles>
+    <EmailAddress>admin@ssot.me</EmailAddress>
+  </AppUsers>
+</Airtable>
