@@ -1,0 +1,12 @@
+**/.ssotme/**/*
+/**/obj/**/*
+/**/bin/**/*
+/**/.vs/**/*
+/**/*.user
+/package-lock.json
+/REMOVED_GIT_FOLDER/**/*
+/**/*/appsettings.json
+/**/.vscode/**/*
+/**/*.pfx
+/**/airtable.key
+/react-app/package-lock.json

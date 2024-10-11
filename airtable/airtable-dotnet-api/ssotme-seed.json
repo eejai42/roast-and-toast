@@ -1,0 +1,67 @@
+{
+  "name": "ssotme-seed",
+  "version": "1.0.0",
+  "description": "Seed project for SSoT.me",
+  "replacements": [
+    {
+      "key": "project-name",
+      "find-text": "project-name",
+      "default-replacement-text": "ej-tictactoe-demo",
+      "description": "A lowercase name of the project"
+    },
+    {
+      "key": "project-name-title",
+      "find-text": "project-name-title",
+      "default-replacement-text": "Tic Tac Toe Demo",
+      "description": "A title of the project"
+    },
+    {
+      "key": "base-id",
+      "find-text": "base-id",
+      "default-replacement-text": "appF5XTR7XzrfTgqs",
+      "description": "The base ID of the Airtable base"
+    },
+    {
+      "key": "view",
+      "find-text": "view",
+      "default-replacement-text": "Grid%20view",
+      "description": "Enter the name of a View to use for that export.  Grid%20view is the default."
+    },
+    {
+      "key": "roles",
+      "find-text": "roles",
+      "default-replacement-text": "Guest,Player,Admin",
+      "description": "The roles that the REST api includes."
+    },
+    {
+      "key": "user-table-name",
+      "find-text": "user-table-name",
+      "default-replacement-text": "AppUser",
+      "description": "The name of the User Table."
+    },
+    {
+      "key": "users-table-name",
+      "find-text": "users-table-name",
+      "default-replacement-text": "AppUsers",
+      "description": "The name of the Users Table (plural)."
+    },
+    {
+      "key": "user-role-name",
+      "find-text": "user-role-name",
+      "default-replacement-text": "Player",
+      "description": "The name of the standard role for a User in the  users table."
+    },
+    {
+      "key": "email-address-field",
+      "find-text": "email-address-field",
+      "default-replacement-text": "TicTacToeEmailAddress",
+      "description": "The name of the field in the users table."
+    },
+    {
+      "key": "roles-field",
+      "find-text": "roles-field",
+      "default-replacement-text": "TicTacToeRoles",
+      "description": "The name of the roles field in the users table."
+    }
+  ]
+}
