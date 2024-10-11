@@ -48,7 +48,7 @@ namespace ASPNet_REST_API.Controllers.Admin
     public class <xsl:value-of select="$msg/Name"/>Controller : Controller
     {
 <xsl:if test="translate(normalize-space($actor/Name), $ucletters, $lcletters) != 'guest'">
-        [Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
+        //[Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
         [HttpPost("<xsl:value-of select="$msg/Name"/>")]
         public IActionResult <xsl:value-of select="$msg/Name"/>(StandardPayload payload)
         {
@@ -110,7 +110,7 @@ namespace ASPNet_REST_API.Controllers.Admin
     {<xsl:if test="$actor/ActorCanSay/SMQMessageKey[string-length(substring-after(text(), concat($actor/LowerName,'.get',translate($od/PluralName, $ucletters, $lcletters))))>0]">
         
 <xsl:if test="normalize-space($actor/Name) != 'Guest'">
-        [Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
+        //[Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
         [HttpGet("<xsl:value-of select="$od/PluralName"/>")]
         public IActionResult Index(string airtableWhere = null, string view = "Grid%20view", int maxPages = 5)
         {
@@ -135,7 +135,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 <xsl:if test="$actor/ActorCanSay/SMQMessageKey[string-length(substring-after(text(), concat($actor/LowerName,'.add',translate($od/Name, $ucletters, $lcletters))))>0]">
     <xsl:if test="normalize-space($actor/Name) != 'Guest'">
-        [Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
+        //[Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
         [HttpPost("<xsl:value-of select="$od/PluralName"/>")]
         [HttpPost("<xsl:value-of select="$od/Name"/>")]
         public IActionResult Add(string airtableWhere = null, string view  = "Grid%20view", int maxPages = 5)
@@ -168,7 +168,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 <xsl:if test="$actor/ActorCanSay/SMQMessageKey[string-length(substring-after(text(), concat($actor/LowerName,'.update',translate($od/Name, $ucletters, $lcletters))))>0]">
     <xsl:if test="normalize-space($actor/Name) != 'Guest'">
-        [Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
+        //[Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
         [HttpPut("<xsl:value-of select="$od/Name"/>")]
         public IActionResult Update(string airtableWhere = null, string view  = "Grid%20view", int maxPages = 5)
         {
@@ -200,7 +200,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 <xsl:if test="$actor/ActorCanSay/SMQMessageKey[string-length(substring-after(text(), concat($actor/LowerName,'.delete',translate($od/Name, $ucletters, $lcletters))))>0]">
     <xsl:if test="normalize-space($actor/Name) != 'Guest'">
-        [Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
+        //[Authorize(Roles = "<xsl:value-of select="$actor/Name"/>", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]</xsl:if>
         [HttpDelete("<xsl:value-of select="$od/Name"/>")]
         public IActionResult Delete(string id)
         {

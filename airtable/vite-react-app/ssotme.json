@@ -1,0 +1,33 @@
+{
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "Name": "seed-vite-react-app",
+  "ProjectSettings": [
+    {
+      "Name": "project-name",
+      "Value": "seed-vite-react-app"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/src/effortlessapiservices",
+      "CommandLine": "xml-xslt-transform -i ../../../SMQL/SassyMQLexicon.smql -i ./smql-to-react-services.xslt -i ../../../ODXML/DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "OdxmlToTypeScriptModels",
+        "Description": "Odxml to TypeScript Models"
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "OdxmlToTypeScriptModels",
+      "RelativePath": "/src/models",
+      "CommandLine": "odxml42/odxml-to-typescript-models -i ../../../ODXML/DataSchema.odxml"
+    }
+  ]
+}

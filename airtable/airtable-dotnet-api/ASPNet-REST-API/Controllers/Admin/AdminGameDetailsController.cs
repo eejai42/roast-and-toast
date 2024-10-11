@@ -18,7 +18,7 @@ namespace ASPNet_REST_API.Controllers.Admin
     {
         
 
-        [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("GameDetails")]
         public IActionResult Index(string airtableWhere = null, string view = "Grid%20view", int maxPages = 5)
         {
@@ -43,7 +43,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 
     
-        [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost("GameDetails")]
         [HttpPost("GameDetail")]
         public IActionResult Add(string airtableWhere = null, string view  = "Grid%20view", int maxPages = 5)
@@ -76,7 +76,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 
     
-        [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("GameDetail")]
         public IActionResult Update(string airtableWhere = null, string view  = "Grid%20view", int maxPages = 5)
         {
@@ -108,7 +108,7 @@ namespace ASPNet_REST_API.Controllers.Admin
                         
 
     
-        [Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(Roles = "Admin", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpDelete("GameDetail")]
         public IActionResult Delete(string id)
         {
