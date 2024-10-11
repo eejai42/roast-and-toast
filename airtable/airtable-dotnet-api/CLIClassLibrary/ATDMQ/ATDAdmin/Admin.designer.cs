@@ -354,6 +354,178 @@ namespace CLIClassLibrary.ATDMQ
             return airtableWhere; 
         }
       
+ // IsUpdate: false - Weapon.
+       public IEnumerable<Weapon> GetWeapons(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.GetWeapons(WrapAdminGetWeaponsWhere(Payload.AirtableWhere), Payload.View, Payload.MaxPages).AdminCleanForGet();
+			}        
+        private string WrapAdminGetWeaponsWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+ // IsUpdate: false - Weapon.
+       public Weapon AddWeapon(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.Insert(Payload.Weapon.AdminCleanForAdd());
+			}        
+        private string WrapAdminAddWeaponWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+ // IsUpdate: true - Weapon.
+       public IEnumerable<Weapon> UpdateWeapon(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				
+          if (Payload.Weapons is null)
+          {
+              return this.UpdateWeapons(api, Payload);
+          }
+          else
+          {
+              var updatedWeapon = api.Update(Payload.Weapon.AdminCleanForUpdate());
+              return new List<Weapon>(new Weapon[] { updatedWeapon });
+          }
+        
+			}        
+        private string WrapAdminUpdateWeaponWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+        private List<Weapon> UpdateWeapons(AirtableDirectCLIAirtableAPIWrapper api, StandardPayload payload)
+        {
+            if ((payload.Weapon is null) && !(payload.Weapons is null)) payload.Weapons = new List<Weapon>() { payload.Weapon};
+            if (!(payload.Weapons is null) && payload.Weapons.Any())
+            {
+                var updatedItems = new List<Weapon>();
+                payload.Weapons.ForEach(item =>
+                {
+                    var updatedWeapons = api.Update(item);
+                    updatedItems.Add(updatedWeapons);
+                });
+                return updatedItems;
+            }
+            else throw new Exception("Updating Weapons requeres either payload.Weapon or payload.Weapons to be non-null values.");
+        }
+    
+ // IsUpdate: false - .
+       public void DeleteWeapon(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				api.Delete(Payload.Weapon);
+			}        
+        private string WrapAdminDeleteWeaponWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+ // IsUpdate: false - Level.
+       public IEnumerable<Level> GetLevels(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.GetLevels(WrapAdminGetLevelsWhere(Payload.AirtableWhere), Payload.View, Payload.MaxPages).AdminCleanForGet();
+			}        
+        private string WrapAdminGetLevelsWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+ // IsUpdate: false - Level.
+       public Level AddLevel(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				return api.Insert(Payload.Level.AdminCleanForAdd());
+			}        
+        private string WrapAdminAddLevelWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+ // IsUpdate: true - Level.
+       public IEnumerable<Level> UpdateLevel(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				
+          if (Payload.Levels is null)
+          {
+              return this.UpdateLevels(api, Payload);
+          }
+          else
+          {
+              var updatedLevel = api.Update(Payload.Level.AdminCleanForUpdate());
+              return new List<Level>(new Level[] { updatedLevel });
+          }
+        
+			}        
+        private string WrapAdminUpdateLevelWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
+        private List<Level> UpdateLevels(AirtableDirectCLIAirtableAPIWrapper api, StandardPayload payload)
+        {
+            if ((payload.Level is null) && !(payload.Levels is null)) payload.Levels = new List<Level>() { payload.Level};
+            if (!(payload.Levels is null) && payload.Levels.Any())
+            {
+                var updatedItems = new List<Level>();
+                payload.Levels.ForEach(item =>
+                {
+                    var updatedLevels = api.Update(item);
+                    updatedItems.Add(updatedLevels);
+                });
+                return updatedItems;
+            }
+            else throw new Exception("Updating Levels requeres either payload.Level or payload.Levels to be non-null values.");
+        }
+    
+ // IsUpdate: false - .
+       public void DeleteLevel(StandardPayload Payload) {
+			
+				AirtableDirectCLIAirtableAPIWrapper api = new AirtableDirectCLIAirtableAPIWrapper(Payload.ApiKey, Payload.BaseId);
+				api.Delete(Payload.Level);
+			}        
+        private string WrapAdminDeleteLevelWhere(string airtableWhere)
+        {
+                
+        
+        
+            // AirtableWhere: 
+            return airtableWhere; 
+        }
+      
 
     }
 }

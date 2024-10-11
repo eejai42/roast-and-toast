@@ -1,6 +1,7 @@
 // Auto Generated Typescript Model interface
 
 import { Game } from "./Game";
+import { Weapon } from "./Weapon";
 
 export interface Character 
 {
@@ -31,6 +32,10 @@ export interface Character
         * Short description of the character for the game.
         */Description? : string;
     Skills? : string;
+    PrimaryWeapon? : string;
+    PrimaryWeaponName? : string;
+    PrimaryWeaponDescription? : string;
+    PrimaryWeaponImageURL? : string;
     
         /**
         * The game associated with this character.
@@ -41,5 +46,6 @@ export interface Character
         */GameIsActive? : boolean;
     
     Characters_Games? : Game[];
+    Characters_Weapons? : Weapon[];
     
 }

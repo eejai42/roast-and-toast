@@ -9,6 +9,10 @@ import { Character } from '../models/Character';
 
 import { AppUser } from '../models/AppUser';
 
+import { Weapon } from '../models/Weapon';
+
+import { Level } from '../models/Level';
+
 
 class GuestService extends BaseService {
     

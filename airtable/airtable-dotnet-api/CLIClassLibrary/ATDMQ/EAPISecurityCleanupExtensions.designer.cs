@@ -20,6 +20,10 @@ namespace CLIClassLibrary.ATDMQ
         
         // Guest Cleaning Extension Methods.  --
         
+        // Guest Cleaning Extension Methods.  --
+        
+        // Guest Cleaning Extension Methods.  --
+        
         // Admin Cleaning Extension Methods.  -CRUD-
         
         // Game
@@ -218,6 +222,14 @@ namespace CLIClassLibrary.ATDMQ
                      // default value: . 
                     Skills = cleanCharacter.Skills,
                      // default value: . 
+                    PrimaryWeapon = cleanCharacter.PrimaryWeapon,
+                     // default value: . 
+                    PrimaryWeaponName = cleanCharacter.PrimaryWeaponName,
+                     // default value: . 
+                    PrimaryWeaponDescription = cleanCharacter.PrimaryWeaponDescription,
+                     // default value: . 
+                    PrimaryWeaponImageURL = cleanCharacter.PrimaryWeaponImageURL,
+                     // default value: . 
                     Game = cleanCharacter.Game,
                      // default value: . 
                     GameIsActive = cleanCharacter.GameIsActive
@@ -252,6 +264,10 @@ namespace CLIClassLibrary.ATDMQ
                     Sd = cleanCharacter.Sd,
                     Description = cleanCharacter.Description,
                     Skills = cleanCharacter.Skills,
+                    PrimaryWeapon = cleanCharacter.PrimaryWeapon,
+                    PrimaryWeaponName = cleanCharacter.PrimaryWeaponName,
+                    PrimaryWeaponDescription = cleanCharacter.PrimaryWeaponDescription,
+                    PrimaryWeaponImageURL = cleanCharacter.PrimaryWeaponImageURL,
                     Game = cleanCharacter.Game,
                     GameIsActive = cleanCharacter.GameIsActive
                 };
@@ -278,6 +294,10 @@ namespace CLIClassLibrary.ATDMQ
                     Sd = cleanCharacter.Sd,
                     Description = cleanCharacter.Description,
                     Skills = cleanCharacter.Skills,
+                    PrimaryWeapon = cleanCharacter.PrimaryWeapon,
+                    PrimaryWeaponName = cleanCharacter.PrimaryWeaponName,
+                    PrimaryWeaponDescription = cleanCharacter.PrimaryWeaponDescription,
+                    PrimaryWeaponImageURL = cleanCharacter.PrimaryWeaponImageURL,
                     Game = cleanCharacter.Game,
                     GameIsActive = cleanCharacter.GameIsActive
                 };
@@ -360,6 +380,162 @@ namespace CLIClassLibrary.ATDMQ
             return AdminAppUser;
         }
 
+        // Admin Cleaning Extension Methods.  -CRUD-
+        
+        // Weapon
+        public static dc.Weapon AdminCleanForAdd(this dc.Weapon cleanWeapon)
+        {
+            var AdminWeapon = default(dc.Weapon);
+
+            if (!ReferenceEquals(cleanWeapon, null))
+            {
+                AdminWeapon = new dc.Weapon()
+                {
+                     // default value: . 
+                    WeaponId = cleanWeapon.WeaponId,
+                     // default value: . 
+                    Name = cleanWeapon.Name,
+                     // default value: . 
+                    Description = cleanWeapon.Description,
+                     // default value: . 
+                    ImageURL = cleanWeapon.ImageURL,
+                     // default value: . 
+                    Characters = cleanWeapon.Characters
+                };
+                
+            }
+
+            return AdminWeapon;
+        }
+        
+        
+        public static List<dc.Weapon> AdminCleanForGet(this IEnumerable<dc.Weapon> cleanWeapons)
+        {
+            return cleanWeapons.Select(Weapon => Weapon.AdminCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.Weapon AdminCleanForGet(this dc.Weapon cleanWeapon)
+        {
+            var AdminWeapon = default(dc.Weapon);
+
+            if (!ReferenceEquals(cleanWeapon, null))
+            {
+                AdminWeapon = new dc.Weapon()
+                {
+                    WeaponId = cleanWeapon.WeaponId,
+                    Name = cleanWeapon.Name,
+                    Description = cleanWeapon.Description,
+                    ImageURL = cleanWeapon.ImageURL,
+                    Characters = cleanWeapon.Characters
+                };
+            }
+
+            return AdminWeapon;
+        }
+        
+        
+        public static dc.Weapon AdminCleanForUpdate(this dc.Weapon cleanWeapon)
+        {
+            var AdminWeapon = default(dc.Weapon);
+
+            if (!ReferenceEquals(cleanWeapon, null))
+            {
+                AdminWeapon = new dc.Weapon()
+                {
+                    WeaponId = cleanWeapon.WeaponId,
+                    Name = cleanWeapon.Name,
+                    Description = cleanWeapon.Description,
+                    ImageURL = cleanWeapon.ImageURL,
+                    Characters = cleanWeapon.Characters
+                };
+            }
+
+            return AdminWeapon;
+        }
+
+        // Admin Cleaning Extension Methods.  -CRUD-
+        
+        // Level
+        public static dc.Level AdminCleanForAdd(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                     // default value: . 
+                    LevelId = cleanLevel.LevelId,
+                     // default value: . 
+                    Name = cleanLevel.Name,
+                     // default value: . 
+                    Description = cleanLevel.Description,
+                     // default value: . 
+                    LevelNumber = cleanLevel.LevelNumber,
+                     // default value: . 
+                    Location = cleanLevel.Location,
+                     // default value: . 
+                    ImageURL = cleanLevel.ImageURL,
+                     // default value: . 
+                    GoogleKey = cleanLevel.GoogleKey
+                };
+                
+            }
+
+            return AdminLevel;
+        }
+        
+        
+        public static List<dc.Level> AdminCleanForGet(this IEnumerable<dc.Level> cleanLevels)
+        {
+            return cleanLevels.Select(Level => Level.AdminCleanForGet())
+                            .ToList();
+        }
+        
+        public static dc.Level AdminCleanForGet(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                    LevelId = cleanLevel.LevelId,
+                    Name = cleanLevel.Name,
+                    Description = cleanLevel.Description,
+                    LevelNumber = cleanLevel.LevelNumber,
+                    Location = cleanLevel.Location,
+                    ImageURL = cleanLevel.ImageURL,
+                    GoogleKey = cleanLevel.GoogleKey
+                };
+            }
+
+            return AdminLevel;
+        }
+        
+        
+        public static dc.Level AdminCleanForUpdate(this dc.Level cleanLevel)
+        {
+            var AdminLevel = default(dc.Level);
+
+            if (!ReferenceEquals(cleanLevel, null))
+            {
+                AdminLevel = new dc.Level()
+                {
+                    LevelId = cleanLevel.LevelId,
+                    Name = cleanLevel.Name,
+                    Description = cleanLevel.Description,
+                    LevelNumber = cleanLevel.LevelNumber,
+                    Location = cleanLevel.Location,
+                    ImageURL = cleanLevel.ImageURL,
+                    GoogleKey = cleanLevel.GoogleKey
+                };
+            }
+
+            return AdminLevel;
+        }
+
         // Player Cleaning Extension Methods.  --
         
         // Player Cleaning Extension Methods.  --
@@ -367,6 +543,14 @@ namespace CLIClassLibrary.ATDMQ
         // Player Cleaning Extension Methods.  --
         
         // Player Cleaning Extension Methods.  --
+        
+        // Player Cleaning Extension Methods.  --
+        
+        // Player Cleaning Extension Methods.  --
+        
+        // NPC Cleaning Extension Methods.  --
+        
+        // NPC Cleaning Extension Methods.  --
         
         // NPC Cleaning Extension Methods.  --
         

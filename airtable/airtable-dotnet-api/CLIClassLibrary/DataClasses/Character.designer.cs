@@ -72,6 +72,19 @@ namespace AirtableDirect.CLI.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Skills")]
         public String Skills { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeapon")]
+        [RemoteIsCollection]
+        public String PrimaryWeapon { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponName")]
+        public String PrimaryWeaponName { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponDescription")]
+        public String PrimaryWeaponDescription { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponImageURL")]
+        public String PrimaryWeaponImageURL { get; set; }
+    
         /// <summary>
         /// The game associated with this character.
         /// </summary>
