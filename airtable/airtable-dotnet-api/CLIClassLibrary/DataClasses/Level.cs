@@ -10,23 +10,18 @@ namespace AirtableDirect.CLI.Lib.DataClasses
 {                   
     
     /// <summary>
-    /// A list of characters in the game.
+    /// This is the description of Levels
     /// </summary>
-    public partial class Character 
+    public partial class Level 
     {
-        public Character()
+        public Level()
         {
             this.InitPoco();
         }
 
-        public void foo()
-        {
-            // write something here
-        }
-
         public override String ToString()
         {
-            return String.Format("Character: {0}", this.Name);
+            return String.Format("Level: {0}", this.Name);
         }
                             
     }

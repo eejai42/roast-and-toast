@@ -9,6 +9,10 @@ import { Character } from '../models/Character';
 
 import { AppUser } from '../models/AppUser';
 
+import { Weapon } from '../models/Weapon';
+
+import { Level } from '../models/Level';
+
 
 class AdminService extends BaseService {
     
@@ -145,6 +149,74 @@ class AdminService extends BaseService {
     
     async DeleteAppUser(id:string)  : Promise<AppUser> { 
         return this.apiCall("DELETE", "Admin", "AppUser", "", id, null, null); // AppUser
+   }
+    
+    
+        
+    
+    async GetWeapons(view:string = 'Grid%20view', airtableWhere :string = '') : Promise<Weapon[]>  { 
+        return this.apiCall("GET", "Admin", "Weapons", view, null, airtableWhere, null); // Weapon
+    }        
+    async GetWeapon(id:string)  : Promise<Weapon|null> { 
+        var dbWeapons : any = await this.apiCall("GET", "Admin", "Weapons", null, null, "RECORD_ID()='" + id + "'", null); // Weapon
+        if (!dbWeapons || (dbWeapons.length == 0)) return null;
+        return dbWeapons[0];
+        
+   }
+    
+    
+        
+    
+    async AddWeapon(Weapon:Weapon) : Promise<Weapon>  { 
+        return this.apiCall("POST", "Admin", "Weapons", null, Weapon, null, null); // Weapon 1
+   }
+    
+    
+        
+    
+    async UpdateWeapon(Weapon:Weapon)  : Promise<Weapon> {
+        return this.apiCall("PUT", "Admin", "Weapon", null, Weapon, null, null); // Weapon 2
+   }
+    
+    
+        
+    
+    async DeleteWeapon(id:string)  : Promise<Weapon> { 
+        return this.apiCall("DELETE", "Admin", "Weapon", "", id, null, null); // Weapon
+   }
+    
+    
+        
+    
+    async GetLevels(view:string = 'Grid%20view', airtableWhere :string = '') : Promise<Level[]>  { 
+        return this.apiCall("GET", "Admin", "Levels", view, null, airtableWhere, null); // Level
+    }        
+    async GetLevel(id:string)  : Promise<Level|null> { 
+        var dbLevels : any = await this.apiCall("GET", "Admin", "Levels", null, null, "RECORD_ID()='" + id + "'", null); // Level
+        if (!dbLevels || (dbLevels.length == 0)) return null;
+        return dbLevels[0];
+        
+   }
+    
+    
+        
+    
+    async AddLevel(Level:Level) : Promise<Level>  { 
+        return this.apiCall("POST", "Admin", "Levels", null, Level, null, null); // Level 1
+   }
+    
+    
+        
+    
+    async UpdateLevel(Level:Level)  : Promise<Level> {
+        return this.apiCall("PUT", "Admin", "Level", null, Level, null, null); // Level 2
+   }
+    
+    
+        
+    
+    async DeleteLevel(id:string)  : Promise<Level> { 
+        return this.apiCall("DELETE", "Admin", "Level", "", id, null, null); // Level
    }
     
     

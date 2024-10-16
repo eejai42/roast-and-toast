@@ -27,6 +27,12 @@ namespace YP.SassyMQ.Lib.RabbitMQ
         public AppUser AppUser { get; set; }
         public List<AppUser> AppUsers { get; set; }
         
+        public Weapon Weapon { get; set; }
+        public List<Weapon> Weapons { get; set; }
+        
+        public Level Level { get; set; }
+        public List<Level> Levels { get; set; }
+        
 
     }
 }

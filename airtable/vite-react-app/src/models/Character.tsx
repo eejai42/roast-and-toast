@@ -1,6 +1,7 @@
 // Auto Generated Typescript Model interface
 
 import { Game } from "./Game";
+import { Weapon } from "./Weapon";
 
 export interface Character 
 {
@@ -13,6 +14,13 @@ export interface Character
         /**
         * A url to an image for this character in the game
         */Avatar? : string;
+    
+        /**
+        * This is the primary weapon that this characer uses by default.
+        */PrimaryWeapon? : string;
+    PrimaryWeaponName? : string;
+    PrimaryWeaponDescription? : string;
+    PrimaryWeaponImageURL? : string;
     
         /**
         * The type of character (Marshmallow, Ninja, NPC, etc.)
@@ -40,5 +48,6 @@ export interface Character
         */GameIsActive? : boolean;
     
     Characters_Games? : Game[];
+    Characters_Weapons? : Weapon[];
     
 }

@@ -46,6 +46,16 @@ namespace AirtableDirect.CLI.Lib.Handlers
         protected abstract string HandleUpdateAppUser();
         protected abstract string HandleDeleteAppUser();
         
+        protected abstract string HandleCreateWeapon();
+        protected abstract string HandleReadWeapon();
+        protected abstract string HandleUpdateWeapon();
+        protected abstract string HandleDeleteWeapon();
+        
+        protected abstract string HandleCreateLevel();
+        protected abstract string HandleReadLevel();
+        protected abstract string HandleUpdateLevel();
+        protected abstract string HandleDeleteLevel();
+        
 
         protected abstract string HandleCustomRequest();
 

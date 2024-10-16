@@ -39,6 +39,23 @@ namespace AirtableDirect.CLI.Lib.DataClasses
         public String Avatar { get; set; }
     
         /// <summary>
+        /// This is the primary weapon that this characer uses by default.
+        /// </summary>
+        
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeapon")]
+        [RemoteIsCollection]
+        public String PrimaryWeapon { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponName")]
+        public String PrimaryWeaponName { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponDescription")]
+        public String PrimaryWeaponDescription { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryWeaponImageURL")]
+        public String PrimaryWeaponImageURL { get; set; }
+    
+        /// <summary>
         /// The type of character (Marshmallow, Ninja, NPC, etc.)
         /// </summary>
         

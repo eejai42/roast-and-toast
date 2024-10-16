@@ -34,6 +34,8 @@ function App() {
             <p>{character.Name}</p>
             <img src={character.Avatar} alt={character.Name} />
             <p>{character.Description}</p>
+            <p>{character.PrimaryWeaponName}</p>
+            <img src={character.PrimaryWeaponImageURL} alt={character.PrimaryWeaponName} />
             </div>
         ))}
       </div>
