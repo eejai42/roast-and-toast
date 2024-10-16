@@ -27,20 +27,6 @@
                 "Description": "A list of users allowed to access games.",
                 "PluralName": "AppUsers",
                 "AirtableName": "AppUsers"
-            },
-            {
-                "Name": "Weapon",
-                "DisplayName": "Weapon",
-                "Description": "This is the description of Weapons",
-                "PluralName": "Weapons",
-                "AirtableName": "Weapons"
-            },
-            {
-                "Name": "Level",
-                "DisplayName": "Level",
-                "Description": "This is the description of Levels",
-                "PluralName": "Levels",
-                "AirtableName": "Levels"
             }
     ]
 }

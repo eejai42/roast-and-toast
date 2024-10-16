@@ -2,7 +2,8 @@
   "Airtable": {
     "Games": [
       {
-        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/MG5GmbOmDBDcwhr74Qt6RQ/XgIHDWZKuThiDax6vSjXssFE3Ru8GLxXVozcpki503qevmk97lxhToOSbouoHKjYpqjowmflFcWBo2jLkvRqWzhlc4w4igd568i5fL0pWsqbi_MQlqTLPsZleZLzt99QXkTj9EhTf-U_nHnkqWTMNJS6wTbo1AeP5r_Bl1UC3YcrsA0s6WZC4HMtQH9w3-3i/95HahB-FzPc6j2XBMEFM_PfAniD9HUn7kPcadaja3Pw",
+        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI",
+        "IsActive": "True",
         "Characters": [
           "recP6nCPgC8kj0Efk",
           "recbisIpgvy42u1Nc",
@@ -24,7 +25,7 @@
         "Name": "Roast and Toast"
       },
       {
-        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo",
+        "LoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/CnDuDgu6CM_Mz0cqgtCCCw/rCHF1h3nUvh4j9gnR47ISevzBl8foDimfvJEiE4d0iqPn_UqJ7k4fuMsdOJgORvKGwwjPMzjreYxsHu0Snyj9cap1k0H7Jn0cXxXBiP0BmnLazWe2OqLpm8Nu2NlzwtOgQvKlIBC6jHuBKjwQwbRZUaMRDwmNT8EscsXREROGV4/O4fUZ1fPQfr70RWvS-hbSkCEPLpj_lXuNz6cHYuwM8k",
         "Characters": [
           "recXuCwnIdu4QQz1S",
           "recmMqW73aKu6NtDT"
@@ -37,78 +38,130 @@
           "recfpdYjG7BtrzYO7"
         ],
         "Notes": "A ninja themed high octane rooftop racing game",
-        "Name": "Rooftop Runners",
-        "IsActive": "True"
+        "Name": "Rooftop Runners"
       }
     ],
     "GameDetails": [
       {
-        "Value": "Rooftop Runners",
-        "Name": "Game Name",
-        "Game": "recAW1ajHxto0oGcM",
+        "Value": "Roast and Toast",
+        "Name": "Game Title",
+        "Game": "recqo91jKx4dH0puE",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
       },
       {
-        "Value": "Maze Running",
-        "Name": "Theme",
-        "Game": "recAW1ajHxto0oGcM",
-        "GameIsActive": "True",
-        "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo"
-      },
-      {
-        "Value": 6.8,
+        "Value": 2.2,
         "Name": "Version",
-        "Game": "recAW1ajHxto0oGcM",
+        "Game": "recqo91jKx4dH0puE",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
       },
       {
-        "Value": "Dive into a heart-pounding, ninja-inspired parkour adventure with \"Rooftop Runners.\" Navigate through a labyrinth of doors, roofs, and alleyways atop the densely populated cityscape. As Silent Tempest, you must outmaneuver and outpace the menacing Shadow Guild to reach your family before they do, preventing a tragic fate. Every leap and dash brings you closer to saving your loved ones or facing devastating loss.",
-        "Name": "Description",
-        "Game": "recAW1ajHxto0oGcM",
+        "Value": "S’mores, Summer Camp",
+        "Name": "Theme",
+        "Game": "recqo91jKx4dH0puE",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
       },
       {
-        "Value": "The gang of rogue ninjas trying to kill you and your family called the Shadow Guild.",
-        "Name": "Enemies",
-        "Game": "recAW1ajHxto0oGcM",
+        "Value": "Team-based platformer with puzzle-solving elements",
+        "Name": "Gameplay Type",
+        "Game": "recqo91jKx4dH0puE",
         "GameIsActive": "True",
         "GameIsDisabled": "",
-        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/ljCLHDFOBYh0_-HlfuL3ig/3Wp7UEAJle0HjkViFq8EBYOSF2MnKOfJn1vePmSYsal9W3qtocPIF1ik2zrCMYFDvD0hmAQr_KgVHk1lO79tjY-pFasG5zCRXm5g-9KQmnNPBCUUnSI2cVKepcAhantKv-Qzixjltt-_EakKMB31fLNJDdfsllHp4jEkn_hyOkg/fzBxoZsTBiuv0dz_gP-OhAe3LeKKdmtQ99wmc3S0PKo"
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
+      },
+      {
+        "Value": "Single-player, Multiplayer",
+        "Name": "Game Modes",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
+      },
+      {
+        "Value": "Help Charlie find the S'mors Gang, Crispy, Melty, and Crunchy and then to reach the campfire to make the perfect s'mors while avoiding obstacles",
+        "Name": "Objective",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
+      },
+      {
+        "Value": "- Puzzle solving and platforming challenges\n- Unique character abilities\n- Unlockable campfire accessories and ingredients\n- Collectible upgrades for the S'mores gang",
+        "Name": "Key Features",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
+      },
+      {
+        "Value": "- Move: Arrow keys/Joystick\n- Jump: Spacebar\n- Special Abilities: Number keys 1-3",
+        "Name": "Controls",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
+      },
+      {
+        "Value": "New characters, levels, and expanded storyline in future updates",
+        "Name": "Coming Soon",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True",
+        "GameIsDisabled": "",
+        "GameLoadingScreen": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/asx6ugKOorAt7_OSHnbz_A/E5_Qeh62haI5gvOnQSsgs1XcUuOoQn95A-59hU9o-QQwe8P3Lv5x4780MI2M3TZ8TlyWactUB-bbcNWCa__giG5uNB81GEUOynlIf_uDUxi0-zAum584M4JZ0AAEJJq-Z_kK-7Sx6leeG47D1yYXcem9oJ0IbI7R8_P_lMcPhuNacc8k-KBUJiGyYjbqyKvR/JCIm_TTKyDyiq-fyl_VlCqQ_bH7kRNCYfWM3NQ0h8ZI"
       }
     ],
     "Characters": [
       {
-        "Type": "Hero",
-        "Description": "Silent Tempest: The game's protagonist, racing against time to save his family from the ruthless Shadow Guild, who threaten to eliminate them as a brutal reprisal.",
+        "Skills": "Boost: Gives the team a speed boost or powers up their abilities for a limited time.",
+        "sd": "Charlie",
+        "Type": "Camper",
+        "Description": "The camper working with the gang to make the perfect S'mors for all the campers.",
         "IntroducedAtLevel": 1,
-        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/-Ukvkvi1rYIb2XM3HFvSfA/owMLpUeUWI5IN8dwfkrYUzrgcxoO3eM4RkDS56TFpzhte3kUO4PSZks6sY5JmYMZxo97L7G6SQaEE0MfgFd7jtZ7Vu_vqwBBArMeWg3JBqkBKKDERZj6hgJQOjeetPEc68lXEg0XUr2RmLsYRnJrdVgT2u0aSLdjLNqaWJ_q2P4/y_AVwhvR2tF0H7u8FC9BWWt6BNEDBxSjwu1x7YL81XQ",
-        "Name": "Silent Tempest",
-        "Game": "recAW1ajHxto0oGcM",
-        "GameIsActive": "True",
-        "PrimaryWeapon": "recgAuyOK3N32JPLe",
-        "PrimaryWeaponImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/katana.png",
-        "PrimaryWeaponDescription": "A traditional Japanese sword known for its sharpness and strength, used by samurai and ninjas.",
-        "PrimaryWeaponName": "Katana"
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/fik0wzHdsLKK35PcpdAWOg/-r5ZUPIbkUhw_6p2ifQWxAHLbtLL3XlXdaihYalpmRvVNi_fn4lS3-Ch1Q4GvlVwQHdiVdA8qlVTmRfjiCoRZPFeKsFIyjs8Q6HfbBoDXHvJrAe2rXdbZ7B1wwxZpuu3KJi4eGAs2f12rpXnRn81-w/gb3X4-3xS2Gp3GivdtjajExPAh0yICZmIuPWXeyVCgg",
+        "Name": "Charlie",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
       },
       {
-        "Type": "ShadowGuild",
-        "Description": "The Shadow Guild Leader: Commanding the notorious rogue gang, this leader has decreed a deadly punishment for Silent Tempest's family, enforcing their grim law with iron resolve.",
-        "IntroducedAtLevel": 1,
-        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1728684000000/TVPKuO2QDOfUdyj5NovUeA/93hbM72oKPVeigewbtj-cvcmMlCjWNTIlBOrjdyYa9pW88vVAZsN7Y5aobMA4c0Uz0GLFb7FBmKz33u2wbErJcRNPGRPLkO7HDaQdQ4cvvHcx9KXHNh7O3nVTsmb0LWvDm2RvhqAtzNzaFmzxxeMQw/98lfbDOzg8Ckm4DmrUCMNz0Y7kxosZuMAzKfBLjREtA",
-        "Name": "Iron Shadow",
-        "Game": "recAW1ajHxto0oGcM",
-        "GameIsActive": "True",
-        "PrimaryWeapon": "recxHcPX3hua7naZu",
-        "PrimaryWeaponImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/shaken.png",
-        "PrimaryWeaponDescription": "A star-shaped throwing weapon that ninjas used for distraction and at a distance to harm enemies.",
-        "PrimaryWeaponName": "Shuriken"
+        "Skills": "Bounce: Jumps higher than the others, perfect for reaching high platforms.",
+        "sd": "Crispy",
+        "IsMissing": "True",
+        "Type": "Marshmallow",
+        "Description": "A small, white, puffy marshmallow, always ready for fun but needs to avoid getting roasted!",
+        "IntroducedAtLevel": 2,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/2CvIn0wq9A9ouGlhyOShyg/CLrvd62rgBLyjAbBeJVlQVqkjXBh4arkHnTjO5JbGYmYurex6mQpsH3gxIil-gY5mLi-4XIPhNkKCKTUPknuO2jBM78HhPAOM8YvB1rXb-EHkCmLsyHwlIksFyuwxQquKw6GBdwWyVjWCmOK-kjCBLQApGCwKyZ1VDG1pSvdGcQ/0IHKHNahrL3BhYHw4Eso8pTGLbGx1M65UJb2N8aysXo",
+        "Name": "Charlie",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
+      },
+      {
+        "Skills": "Slide: Melty can slip under tight spaces that others can't.",
+        "sd": "Melty",
+        "IsMissing": "True",
+        "Type": "Chocolate Bar",
+        "Description": "The smooth chocolate with a cool personality, but melts easily under pressure!",
+        "IntroducedAtLevel": 3,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/YVueGFlRfUa98oGIf8C0mA/FO3A5U8r3InHkiVOLHv-cM6bYB6zbVUoOULA2Mq__mMVAe6LycSA0Jzqpe5ERN5gnEcDKfGXyRSiRu70Nm-vA-GhFv8inB0NRp6SnSjN0HOzch56QkaS_4QBMd466HVPV7N2DmP1V1eH4cDHJxx7aw/jwhG7eO4012fIyxmIgPSE6eIiM7cjSRPHSxfISZN30Y",
+        "Name": "Melty",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
+      },
+      {
+        "Skills": "Shield: Temporarily protects the team from flames and falling objects.",
+        "sd": "Crunchy",
+        "IsMissing": "True",
+        "Type": "Graham Cracker",
+        "Description": "The reliable, sturdy graham cracker who helps keep the S’more together—but be careful, he can crumble!",
+        "IntroducedAtLevel": 4,
+        "Avatar": "https://v5.airtableusercontent.com/v3/u/33/33/1729108800000/8WMpT_QLU1_w7k-DUWsVbQ/ao0x0nSulaFcR16Bf7UGLnmQdJYh1x4K9JNYsYx0N6_0GtmaeouJA_A7vCJB5MdDYosPDKYu0lcau4F9fAk21ndnGL0GuYZVe0pNxun3Wu-iFBmYZm_rNjcuyybCyehulHBsi3ZAItJYi-xg24lnzuto-YFxdGR3kFv0mtdbGAc/jnH5qvjyRfCtx300_p_ASPll9JRUBwDS_I7ps7fXE_U",
+        "Name": "Crunchy",
+        "Game": "recqo91jKx4dH0puE",
+        "GameIsActive": "True"
       }
     ],
     "AppUsers": [
@@ -129,51 +182,6 @@
           "Player"
         ],
         "EmailAddress": "admin@ssot.me"
-      }
-    ],
-    "Weapons": [
-      {
-        "Name": "Katana",
-        "Description": "A traditional Japanese sword known for its sharpness and strength, used by samurai and ninjas.",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/katana.png",
-        "Characters": "recXuCwnIdu4QQz1S"
-      },
-      {
-        "Name": "Nunchaku",
-        "Description": "A martial arts weapon consisting of two sticks connected by a short chain or rope, used for striking and entangling.",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/nunchaku.png"
-      },
-      {
-        "Name": "Shuriken",
-        "Description": "A star-shaped throwing weapon that ninjas used for distraction and at a distance to harm enemies.",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/shaken.png",
-        "Characters": "recmMqW73aKu6NtDT"
-      }
-    ],
-    "Levels": [
-      {
-        "Name": "Skybound",
-        "Description": "High above the bustling metropolis, combatants leap between the rooftops of towering skyscrapers. Each rooftop presents its own challenges and opportunities for tactical advantage.",
-        "LevelNumber": 1,
-        "Location": "Rooftop",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/skybound.png",
-        "GoogleKey": "1ydQbxC2yyHlFfpcNYEK4n7WrRITyIVnb"
-      },
-      {
-        "Name": "The Depths",
-        "Description": "Deep beneath the earth, the air is thick and heavy. Echoes of past skirmishes reverberate off the cold, damp stone walls. The labyrinthine tunnels twist and turn, hiding dangers and treasures alike.",
-        "LevelNumber": 2,
-        "Location": "Underground",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/underground.png",
-        "GoogleKey": "1OYsOoojlBToCdrTFbeaAwrVod1KOz2Vo"
-      },
-      {
-        "Name": "Rail Rush",
-        "Description": "Speed is the name of the game as fighters find themselves atop a swiftly moving city train. Every moment is a test of reflexes.",
-        "LevelNumber": 3,
-        "Location": "Train",
-        "ImageURL": "https://raw.githubusercontent.com/eejai42/roast-and-toast/refs/heads/master/images/train.png",
-        "GoogleKey": "14viKK9_QAxCJ4MAlqi2Zha-uv7TAIVdX"
       }
     ]
   }

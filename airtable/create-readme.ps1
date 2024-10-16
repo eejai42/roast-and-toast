@@ -129,7 +129,7 @@ function Generate-Image {
 
         # Download the image and save it locally
         $imagePath = "logo.png"
-        Invoke-WebRequest -Uri $imageUrl -OutFile "../$imagePath"
+        Invoke-WebRequest -Uri $imageUrl -OutFile "$imagePath"
         Write-Host "Image saved to $imagePath"
 
         return $imagePath
