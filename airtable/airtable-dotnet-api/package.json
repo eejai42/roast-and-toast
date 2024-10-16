@@ -1,0 +1,14 @@
+{
+    "name": "roast-and-toast.xlsx",
+    "version": "2022.08.29",
+    "description": "",
+    "bin": "cli.js",
+    "scripts": {
+        "build": "dotnet build ./ASPNet-REST-API/ASPNet-REST-API.csproj && dotnet build ./DotNet/EAPICLI/EAPICLI.csproj",
+        "start": "dotnet DotNet/EAPICLI/bin/Debug/netcoreapp3.1/roast-and-toast.xlsx.dll",
+        "postinstall": "npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "GNU"
+}

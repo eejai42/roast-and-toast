@@ -1,0 +1,1 @@
+This folder has the published version of the ../react-app app.
