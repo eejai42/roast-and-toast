@@ -1,0 +1,147 @@
+{
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "Name": "roast_and_toast_game_info.xlsx",
+  "ProjectSettings": [
+    {
+      "Name": "project-name",
+      "Value": "roast_and_toast_game_info.xlsx"
+    },
+    {
+      "Name": "project-name-title",
+      "Value": "Roast_and_Toast_Game_Info.xlsx"
+    },
+    {
+      "Name": "baseId",
+      "Value": "appmrdAZppf3BM8LL"
+    },
+    {
+      "Name": "actors",
+      "Value": "Admin,Player,NPC,Guest"
+    },
+    {
+      "Name": "include-load-methods",
+      "Value": "false"
+    },
+    {
+      "Name": "init-lists",
+      "Value": "false"
+    },
+    {
+      "Name": "legacy",
+      "Value": "false"
+    },
+    {
+      "Name": "user-name",
+      "Value": "Player"
+    },
+    {
+      "Name": "email-address-name",
+      "Value": "EmailAddress"
+    },
+    {
+      "Name": "role-name",
+      "Value": "Roles"
+    },
+    {
+      "Name": "crud-coordinator",
+      "Value": "CRUDCoordinator"
+    },
+    {
+      "Name": "serialize-to-original-names",
+      "Value": "true"
+    },
+    {
+      "Name": "make-fks-collections",
+      "Value": "true"
+    },
+    {
+      "Name": "list-suffix",
+      "Value": "Expanded"
+    },
+    {
+      "Name": "jwt-build-command",
+      "Value": "Encode"
+    },
+    {
+      "Name": "dataclasses-namespace",
+      "Value": "AirtableDirect.CLI.Lib.DataClasses"
+    },
+    {
+      "Name": "mode",
+      "Value": "Split"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "Name": "OdxmlToCSharpPOCOs",
+        "Description": "Odxml To CSharp POCOs"
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "OdxmlToCSharpPOCOs",
+      "RelativePath": "/CLIClassLibrary/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml -p make-fks-collections=true -p base-namespace=SassyApiHostedCore.Lib -p serialize-to-original-names=true -p list-suffix=Expanded -p include-load-methods=false -p init-lists=false -p airtable=true -p include-collections=false"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "OdxmlToDotNetAirtableAPIWrapper",
+        "Description": "Odxml To DotNet Airtable API Wrapper"
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "OdxmlToDotNetAirtableAPIWrapper",
+      "RelativePath": "/CLIClassLibrary/AirtableAPI",
+      "CommandLine": "airtable/odxml-to-dotnet-airtable-api-wrapper -i ../../../ODXML/DataSchema.odxml -p name=AirtableDirectCLI -p jwt-build-method=Encode"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/CLIClassLibrary/AirtableAPI",
+      "CommandLine": "xml-xslt-transform -i ../../../ODXML/DataSchema.odxml -i CreateAirtableCRUDHandler.xslt -p cli-namespace=AirtableDirect.CLI.Lib.Handlers -p crud-coordinator=CRUDCoordinator"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/CLIClassLibrary/RoleHandlers",
+      "CommandLine": "codee42/xml-xslt-transform -i ../../../SMQL/SassyMQLexicon.smql -i CreateRoleHandlers.xslt -i ../../../ODXML/DataSchema.odxml -p crud-coordinator=CRUDCoordinator"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/CLIClassLibrary/Controllers",
+      "CommandLine": "codee42/xml-xslt-transform -i ../../../ODXML/DataSchema.odxml -i CreateMVCControllers.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlToPlossumCmdLineOptions",
+        "Description": "Xml To Plossum Cmd Line Options"
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlToPlossumCmdLineOptions",
+      "RelativePath": "/CLIClassLibrary",
+      "CommandLine": "XmlToPlossumCmdLineOptions -i ../SSoT/CommandLineArgs.csv.xml -p handlerName=EAPICLIHandlerBase -p copyright=Copyright\\ 2023,\\ EJ\\ Alexandra -p description=\n\nSYNTAX:\\ ssotme\\ {command}\\ [...{additional_args}]\\ [options]\n -p application=carr-rest-api\\ Command\\ Line\\ Interface"
+    },
+    {
+      "MatchedTranspiler": {
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "IsSSoTTranspiler": false,
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/ASPNet-REST-API/Controllers",
+      "CommandLine": "xml-xslt-transform -i ../../../ODXML/DataSchema.odxml -i CreateControllers.xslt -i ../../../SMQL/SassyMQLexicon.smql"
+    }
+  ]
+}
